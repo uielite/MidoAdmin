@@ -1,0 +1,106 @@
+.custom-card {
+  overflow: hidden;
+  padding: 30px;
+  @media #{$small_mobile} {
+    padding: 0;
+  }
+  &.card {
+    margin-bottom: 30px;
+    border: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+    border-radius: 15px;
+    border: none !important;
+    background: #4d69fa;
+    .card-header {
+      background-color: #fff;
+      padding: 0px;
+      border-bottom: 1px solid #ecf3fa;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      position: relative;
+      height: 220px;
+      overflow: hidden;
+      img {
+        border-radius: 50%;
+        margin-top: -100px;
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+      }
+    }
+  }
+  .card-profile {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+    img {
+      height: 150px;
+      padding: 7px;
+      background-color: #fff;
+      z-index: 1;
+      position: relative;
+      margin-top: -75px;
+    }
+  }
+  .card-social {
+    text-align: center;
+    padding-left: 20px;
+    li {
+      display: inline-block;
+      padding: 5px 0;
+      a {
+        padding: 13px;
+        color: #bcc6de;
+        font-size: 16px;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+  .profile-details h4 {
+    color: #fff;
+  }
+  .profile-details h6 {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: #fff;
+    font-size: 14px;
+  }
+  .card-footer {
+    padding: 0;
+    background-color: #fff;
+    border-top: 1px solid #ecf3fa;
+    padding: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    @media #{$small_mobile} {
+      padding: 0 15px 15px 15px;
+    }
+    > div h6 {
+      font-size: 14px;
+      color: rgba(43, 43, 43, 0.7);
+      @media #{$small_mobile} {
+        font-size: 13px;
+      }
+    }
+    > div h3 {
+      margin-bottom: 0;
+      font-size: 24px;
+      @media #{$small_mobile} {
+        font-size: 20px;
+      }
+    }
+    > div + div {
+      border-left: 1px solid #efefef;
+    }
+    > div {
+      padding: 15px;
+      text-align: center;
+      @media #{$small_mobile} {
+        padding: 15px 13px;
+      }
+    }
+  }
+}

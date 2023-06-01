@@ -1,0 +1,254 @@
+.bg-transparent {
+    background-color: transparent;
+  }
+  .bg-dark-high {
+    background-color: #000000;
+  }
+  .bg-dark-medium {
+    background-color: #111111;
+  }
+  .bg-dark-normal {
+    background-color: #222222;
+  }
+  .bg-dark-low {
+    background-color: #444444;
+  }
+  .bg-light {
+    background-color: #ffffff !important;
+  }
+  .bg-ash {
+    background-color: #f0f1f3 !important;
+  }
+  .bg-red {
+    background-color: #ff0000;
+  }
+  .bg-orange-red {
+    background-color: #ff0000;
+  }
+  .bg-blue {
+    background-color: #304ffe;
+  }
+  .bg-blue-dark {
+    background-color: #042954;
+  }
+  .bg-yellow {
+    background-color: #fbd540;
+  }
+  .bg-yellow2 {
+    background-color: #ffb822;
+  }
+  .bg-yellow3 {
+    background-color: #f0a70d;
+  }
+  .bg-orange {
+    background-color: #fbd540;
+  }
+  .bg-orange-peel {
+    background-color: #ffa000;
+  }
+  .bg-skyblue {
+    background-color: #40dfcd;
+  }
+  .bg-pink {
+    background-color: #f939a1;
+  }
+  .bg-pink2 {
+    background-color: #ff5252;
+  }
+  .bg-pink3 {
+    background-color: #ef3232;
+  }
+  .bg-mauvelous {
+    background-color: #f48fb1;
+  }
+  .bg-light-red {
+    background-color: #ffeaea;
+  }
+  .bg-light-yellow {
+    background-color: #fff2d8;
+  }
+  .bg-light-blue {
+    background-color: #e1f1ff;
+  }
+  .bg-dodger-blue {
+    background-color: #2196f3;
+  }
+  .bg-violet-blue {
+    background-color: #a864a8;
+  }
+  .bg-light-green {
+    background-color: #d1f3e0;
+  }
+  .bg-dark-pastel-green {
+    background-color: #00c853;
+  }
+  .bg-light-sea-green {
+    background-color: #1cbbb4;
+  }
+  .bg-light-green2 {
+    background-color: #64d9bc;
+  }
+  .bg-light-green3 {
+    background-color: #4ec9aa;
+  }
+  .bg-light-magenta {
+    background-color: #f3e5f5;
+  }
+  .bg-martini {
+    background-color: #bcaaa4;
+  }
+  .bg-true-v {
+    background-color: #9575cd;
+  }
+  .bg-wild-strawberry {
+    background-color: #ff4081;
+  }
+  .bg-fb {
+    background-color: #546ca9;
+  }
+  .bg-fb2 {
+    background-color: #5867dd;
+  }
+  .bg-fb3 {
+    background-color: #4655c8;
+  }
+  .bg-gplus {
+    background-color: #f81b1b;
+  }
+  .bg-twitter {
+    background-color: #45a0f0;
+  }
+  .bg-linkedin {
+    background-color: #1565c0;
+  }
+  .bg-git {
+    background-color: #997f75;
+  }
+  .sidebar-color {
+    background-color: #042954;
+  }
+  .bg-gradient-fb {
+    background: -webkit-gradient(linear, left top, right top, from(#546ca9), to(#5c77bc));
+    background: -webkit-linear-gradient(left, #546ca9, #5c77bc);
+    background: -o-linear-gradient(left, #546ca9, #5c77bc);
+    background: linear-gradient(to right, #546ca9, #5c77bc);
+  }
+  .bg-gradient-twitter {
+    background: -webkit-gradient(linear, left top, right top, from(#1f89e5), to(#64b5f6));
+    background: -webkit-linear-gradient(left, #1f89e5, #64b5f6);
+    background: -o-linear-gradient(left, #1f89e5, #64b5f6);
+    background: linear-gradient(to right, #1f89e5, #64b5f6);
+  }
+  .bg-gradient-gplus {
+    background: -webkit-gradient(linear, left top, right top, from(#e84642), to(#f81b1b));
+    background: -webkit-linear-gradient(left, #e84642, #f81b1b);
+    background: -o-linear-gradient(left, #e84642, #f81b1b);
+    background: linear-gradient(to right, #e84642, #f81b1b);
+  }
+  .bg-gradient-linked {
+    background: -webkit-gradient(linear, left top, right top, from(#1565c0), to(#314ce0));
+    background: -webkit-linear-gradient(left, #1565c0, #314ce0);
+    background: -o-linear-gradient(left, #1565c0, #314ce0);
+    background: linear-gradient(to right, #1565c0, #314ce0);
+  }
+  .btn-gradient-yellow {
+    background-color: #ffae01;
+  }
+  .gradient-dodger-blue {
+    background: -webkit-gradient(linear, left top, right top, from(#2196f3), to(#21bff3));
+    background: -webkit-linear-gradient(left, #2196f3, #21bff3);
+    background: -o-linear-gradient(left, #2196f3, #21bff3);
+    background: linear-gradient(to right, #2196f3, #21bff3);
+  }
+  .gradient-orange-peel {
+    background: -webkit-gradient(linear, left top, right top, from(#ffa000), to(#ff7200));
+    background: -webkit-linear-gradient(left, #ffa000, #ff7200);
+    background: -o-linear-gradient(left, #ffa000, #ff7200);
+    background: linear-gradient(to right, #ffa000, #ff7200);
+  }
+  .gradient-pastel-green {
+    background: -webkit-gradient(linear, left top, right top, from(#43a047), to(#66bb6a));
+    background: -webkit-linear-gradient(left, #43a047, #66bb6a);
+    background: -o-linear-gradient(left, #43a047, #66bb6a);
+    background: linear-gradient(to right, #43a047, #66bb6a);
+  }
+
+//   progressbar 1 
+.progress-bar-card {
+    height: auto;
+  }
+  .progress-bar-card .white_card_body .basic-progress-bar .progress {
+    margin-bottom: 30px;
+    height: 7px;
+  }
+  .progress-bar-card .white_card_body .stripe-progress-bar .progress {
+    height: 20px;
+    margin-bottom: 20px;
+  }
+  .progress-bar-card .white_card_body .gradient-progress-bar .progress {
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  .progress-bar-card .white_card_body .gradient-progress-bar .progress .progress-bar {
+    text-align: right;
+    padding-right: 10px;
+    font-size: 18px;
+  }
+  .progress-bar-card .white_card_body .vertical-progress-bar .progress-bar-vertical {
+    width: 70px;
+    min-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+  }
+  .progress-bar-card .white_card_body .vertical-progress-bar .progress-bar-vertical .progress-bar {
+    width: 100%;
+    height: 0;
+    -webkit-transition: height 0.6s ease;
+    -o-transition: height 0.6s ease;
+    transition: height 0.6s ease;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+
+  .progress-bar-card {
+    height: auto;
+  }
+  .progress-bar-card .white_card_body .basic-progress-bar .progress {
+    margin-bottom: 30px;
+    height: 7px;
+  }
+  .progress-bar-card .white_card_body .stripe-progress-bar .progress {
+    height: 20px;
+    margin-bottom: 20px;
+  }
+  .progress-bar-card .white_card_body .gradient-progress-bar .progress {
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  .progress-bar-card .white_card_body .gradient-progress-bar .progress .progress-bar {
+    text-align: right;
+    padding-right: 10px;
+    font-size: 18px;
+  }
+  .progress-bar-card .white_card_body .vertical-progress-bar .progress-bar-vertical {
+    width: 70px;
+    min-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+  }
+  .progress-bar-card .white_card_body .vertical-progress-bar .progress-bar-vertical .progress-bar {
+    width: 100%;
+    height: 0;
+    -webkit-transition: height 0.6s ease;
+    -o-transition: height 0.6s ease;
+    transition: height 0.6s ease;
+    font-size: 18px;
+    font-weight: 500;
+  }

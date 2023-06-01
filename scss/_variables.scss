@@ -1,0 +1,60 @@
+$font_1: "Roboto", sans-serif;
+$font_style_2: "Roboto", sans-serif;
+
+$white: #fff;
+$black: #000;
+$base_color: #2e4765;
+$body_bg: #f6f7fb;
+
+$section_bg: #fef1f2;
+$section_bg_1: #f5ecec;
+$heading_color_1: #17263a;
+$heading_color_2: #151c1c;
+$heading_color_3: #1e1e2d;
+
+$icon_color: #d9d9d9;
+$text_color: #7e7172;
+$text_color_2: #222222;
+$text_color_3: #707070;
+
+$text_color_4: #707db7;
+$text_color_5: #6f7a92;
+$text_color_1: #707070;
+$border_color: #79838b;
+$border_color_1: #bbc1c9;
+$border_color_2: #f1f2f3;
+$border_color_3: #e4e8ec;
+$border_color_4: #eee1e2;
+
+// bg color
+$blue_bg: #3b76ef;
+
+$big_device: "(min-width: 1200px)";
+$tab: "(max-width: 991px)";
+$min_tab: "(min-width: 992px)";
+$small_mobile: "(max-width: 575.98px)";
+$xs_mobile: "(max-width: 420px)";
+$extra_big_screen2: "only screen and (min-width: 1680px) and (max-width: 1780px)";
+$extra_big_screen: "only screen and (min-width: 1440px) and (max-width: 1679px)";
+$big_screen: "only screen and (min-width: 1200px) and (max-width: 1439px)";
+$medium_device: "only screen and (min-width: 992px) and (max-width: 1200px)";
+$tab_device: "only screen and (min-width: 768px) and (max-width: 991px)";
+
+$large_mobile: "only screen and (min-width: 576px) and (max-width: 767px)";
+
+/* Normal desktop :1200px. */
+$large_device: "(min-width: 1200px) and (max-width: 1500px)";
+
+/* Normal desktop :992px. */
+$mid_device: "(min-width: 992px) and (max-width: 1199.98px)";
+
+/* Tablet desktop :768px. */
+$tablet_device: "(min-width: 768px) and (max-width: 991.98px)";
+
+/* small mobile :320px. */
+$mobile_device: "(max-width: 767.98px)";
+
+$min_1200px: "(min-width: 1201px)";
+
+$min_1680px: "(min-width: 1680px)";
+$lg_device: "(min-width: 992px) and (max-width: 1199.98px)";

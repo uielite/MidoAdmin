@@ -1,0 +1,195 @@
+/* tickers */
+/* ticker black sm */
+.tickercontainer {
+    width: 100%;
+}
+.crypto-ticker .cc {
+    font-size: 20px;
+    margin: 0;
+}
+.tickers-black-sm .tickercontainer {
+    background-color: #252525;
+    color: #fff;
+    border-top: 5px solid  #5886FF;
+    left: 0;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+.tickers-black-sm .tickercontainer li {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 75px;
+}
+/* ticker black lg */
+.tickers-black-lg .tickercontainer {
+    background-color: #252525;
+    color: #fff;
+    border-top: 5px solid #5886FF;
+    left: 0;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+.tickers-black-lg .tickercontainer li {
+    font-weight: bold;
+}
+.tickers-black-lg .tickercontainer li .row1-coin-name {
+    font-size: 16px;
+    margin: 30px 0;
+}
+.tickers-black-lg .tickercontainer li .row2-buy {
+    margin: 10px 0;
+}
+.tickers-black-lg .tickercontainer li .row2-buy span {
+    color: #f4516c;
+}
+.tickers-black-lg .tickercontainer li .row2-sell {
+    margin: 10px 0 30px;
+}
+.tickers-black-lg .tickercontainer li .row2-sell span {
+    color:#34bfa3;
+}
+/* ticker black indicative */
+.tickers-black-indicative .tickercontainer {
+    background-color: #252525;
+    color: #fff;
+    border-top: 5px solid;
+    left: 0;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+.tickers-black-indicative .tickercontainer li {
+    margin: 30px 0;
+    font-weight: bold;
+}
+.tickers-black-indicative .tickercontainer li span.fa-caret-up {
+    color: #f4516c;
+}
+.tickers-black-indicative .tickercontainer li span.fa-caret-up {
+    color: #34bfa3;
+}
+/* ticker white sm */
+.tickers-white-sm .tickercontainer {
+    background-color: #fff;
+    color: #252525;
+    border-top: 5px solid;
+    left: 0;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+.tickers-white-sm .tickercontainer li {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 75px;
+}
+/* ticker white lg */
+.tickers-white-lg .tickercontainer {
+    background-color: #fff;
+    color: #252525;
+    border-top: 5px solid;
+    left: 0;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+.tickers-white-lg .tickercontainer li {
+    font-weight: bold;
+}
+.tickers-white-lg .tickercontainer li .row1-coin-name {
+    font-size: 16px;
+    margin: 30px 0;
+}
+.tickers-white-lg .tickercontainer li .row2-buy {
+    margin: 10px 0;
+}
+.tickers-white-lg .tickercontainer li .row2-buy span {
+    color: #f4516c;
+}
+.tickers-white-lg .tickercontainer li .row2-sell {
+    margin: 10px 0 30px;
+}
+.tickers-white-lg .tickercontainer li .row2-sell span {
+    color:#34bfa3;
+}
+/* ticker black indicative */
+.tickers-white-indicative .tickercontainer {
+    background-color: #fff;
+    color: #252525;
+    border-top: 5px solid;
+    left: 0;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+.tickers-white-indicative .tickercontainer li {
+    margin: 30px 0;
+    font-weight: bold;
+}
+.tickers-white-indicative .tickercontainer li span.fa-caret-up {
+    color: #f4516c;
+}
+.tickers-white-indicative .tickercontainer li span.fa-caret-up {
+    color: #34bfa3;
+}
+.exchange-section {
+    padding: 100px 0 120px;
+    background-size: cover;
+}
+.exchange-section p {
+    color: #252525;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+.exchange-calculator {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 auto 20px;
+    width: 85%;
+    background: rgba(0,0,0,.1);
+    padding: 20px 5px;
+}
+.exchange-calculator .select2-container--default .select2-selection--single {
+    border-color: transparent;
+}
+.exchange-calculator input {
+    height: 60px;
+    width: 30%;
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+    padding: 10px 20px;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    background: #f0e8cb;
+}
+.exchange-calculator .select2-container {
+    width: 15% !important;
+    border: 0;
+}
+.exchange-section h1 {
+    max-width: 550px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.exchange-section p {
+    max-width: 400px;
+    margin: 20px auto;
+}
+.equal {
+    width: 6%;
+    display: inline-block;
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: top;
+}
+.tickercontainer {
+    span.coin-value{
+        color: #1652F0;
+    }
+}

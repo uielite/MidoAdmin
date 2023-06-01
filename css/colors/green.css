@@ -1,0 +1,90 @@
+.sidebar {
+    background: #2BAAB1;
+}
+.sidebar .logo {
+    background: #2BAAB1;
+}
+
+/* line 605, G:/admin_project/20 admin/metis/scss/_sidebar.scss */
+.sidebar {
+    background: #2BAAB1;
+  }
+  
+  /* line 607, G:/admin_project/20 admin/metis/scss/_sidebar.scss */
+  .sidebar .logo {
+    background: #2BAAB1;
+  }
+  
+  /* line 610, G:/admin_project/20 admin/metis/scss/_sidebar.scss */
+  .sidebar .sidebar_close_icon i {
+    color: #fff;
+  }
+  
+  /* line 613, G:/admin_project/20 admin/metis/scss/_sidebar.scss */
+  .sidebar #sidebar_menu > li ul {
+    background: #2BAAB1;
+  }
+  
+  /* line 617, G:/admin_project/20 admin/metis/scss/_sidebar.scss */
+  .sidebar #sidebar_menu > li > a {
+    color: #fff;
+    background: transparent;
+  }
+  
+  /* line 620, G:/admin_project/20 admin/metis/scss/_sidebar.scss */
+  .sidebar #sidebar_menu > li > a span {
+    font-family: "Lexend", sans-serif;
+    color: #fff;
+  }
+  
+  /* line 625, G:/admin_project/20 admin/metis/scss/_sidebar.scss */
+  .sidebar #sidebar_menu > li ul li a.active,
+  .sidebar #sidebar_menu > li ul li a:hover {
+    background: #2BAAB1 !important;
+    color: #fff !important;
+  }
+  
+  /* line 630, G:/admin_project/20 admin/metis/scss/_sidebar.scss */
+  .sidebar #sidebar_menu > li.mm-active > a,
+  .sidebar #sidebar_menu > li.mm-active > a.active,
+  .sidebar #sidebar_menu > li > a.active,
+  .sidebar #sidebar_menu > li > a:hover,
+  .sidebar #sidebar_menu > li.mm-active a span,
+  .sidebar #sidebar_menu > li a:hover span {
+    background: #2BAAB1;
+    color: #CCCFD2 !important;
+  }
+  
+  /* line 639, G:/admin_project/20 admin/metis/scss/_sidebar.scss */
+  .sidebar #sidebar_menu > li ul li a {
+    color: #ACB6C4;
+    background: transparent;
+  }
+  
+  /* line 643, G:/admin_project/20 admin/metis/scss/_sidebar.scss */
+  .sidebar #sidebar_menu > li {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  /* line 647, G:/admin_project/20 admin/metis/scss/_sidebar.scss */
+  .sidebar #sidebar_menu > li a::after {
+    color: #fff;
+  }
+  
+  /* line 652, G:/admin_project/20 admin/metis/scss/_sidebar.scss */
+
+
+  .sidebar.mini_sidebar #sidebar_menu > li:hover > a:hover, .sidebar.mini_sidebar #sidebar_menu > li:hover > a.active, .sidebar.mini_sidebar #sidebar_menu > li.mm-active > a:hover, .sidebar.mini_sidebar #sidebar_menu > li.mm-active > a.active {
+	background: #2BAAB1 !important;
+}
+.sidebar.mini_sidebar #sidebar_menu > li > a .nav_icon_small {
+	width: 135px;
+	background: #2BAAB1;
+}
+.sidebar.mini_sidebar #sidebar_menu > li.mm-active > a {
+	background: #2BAAB1;
+}
+.sidebar.mini_sidebar #sidebar_menu > li ul {
+	background: #2BAAB1;
+}

@@ -1,0 +1,23 @@
+.btn-outline-light {
+    color: #ddd !important;
+    border-color: #ddd !important;
+}
+
+.icon-lists{
+    div{
+        cursor: pointer;
+        line-height: 60px;
+        white-space: nowrap;
+        border-radius: 4px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        i{
+            margin: 0 15px 0 10px;
+            font-size: 24px;
+        }
+    }
+}

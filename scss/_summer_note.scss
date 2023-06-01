@@ -1,0 +1,66 @@
+.note-editor.note-frame {
+  border: 1px solid#eee1e2;
+  .note-popover .note-popover-content,
+  .note-toolbar {
+    padding: 4px 15px 8px 15px;
+    margin: 0;
+    border-radius: 5px 5px 0 0;
+    background-color: #6c5dd3;
+  }
+
+  .note-btn i,
+  .note-current-fontname {
+    color: #7e7172;
+    font-size: 12px;
+  }
+  .note-btn {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #7e7172;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    border-radius: 3px;
+    &:hover {
+      color: #fff;
+      background: #6c5dd3;
+    }
+    &:hover i {
+      color: #fff;
+      background: #6c5dd3;
+    }
+    .note-current-fontname:hover {
+      color: #fff;
+    }
+  }
+
+  .show .dropdown-toggle::after {
+    transform: rotate(180deg);
+    color: red;
+  }
+  .note-icon-font.note-recent-color {
+    background: transparent !important;
+    color: #7e7172 !important ;
+  }
+
+  .show .dropdown-toggle::after {
+    color: #7e7172 !important;
+  }
+  .note-btn:hover span {
+    color: #fff !important;
+  }
+  .note-btn:hover i {
+    color: #fff !important;
+  }
+  .note-editing-area .note-editable {
+    background-color: #fff;
+  }
+}
+.note-editor.note-frame .note-placeholder {
+  padding: 18px 25px 0 25px;
+  font-size: 14px;
+  color: #7e7172;
+  line-height: 28px;
+  font-weight: 300;
+}

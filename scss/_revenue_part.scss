@@ -1,0 +1,37 @@
+.revenue_part{
+    .btn_2{
+        padding: 8px 13px;
+        margin-left: 30px;
+    }
+    .courses_price{
+        .btn_1{
+            padding: 13px 32px;
+            line-height: 16px;
+            height: auto;
+            width: auto;
+        }
+    }
+    .courses_details{
+        span{
+            font-size: 16px;
+            font-weight: 600;
+            color: $text_color;
+            margin-top: 3px;
+        }
+    }
+    
+    .courses_duration{
+        position: relative;
+        padding-left: 25px;;
+        h6{
+            font-size: 14px;
+            margin-bottom: 8px;
+            i{
+                color: $base_color;
+                position: absolute;
+                left: 0;
+                top: 2px;
+            }
+        }
+    }
+}

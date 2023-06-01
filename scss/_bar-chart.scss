@@ -1,0 +1,61 @@
+#morris_bar{
+    height: 300px;
+}
+#morris_bar_bold{
+    height: 300px;
+}
+
+tspan {
+    font-size: 13px;
+    font-weight: 300;
+    color: #7e7172;
+    text-transform: capitalize;
+}
+
+  .morris-hover.morris-default-style .morris-hover-point {
+    white-space: nowrap;
+    margin: 0.1em 0;
+    font-size: 13px;
+    color: #fff !important;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: $font_1;
+}
+
+.morris-hover.morris-default-style .morris-hover-row-label {
+    font-weight: bold;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 300;
+    color: #7e7172;
+    line-height: 12px;
+    font-family: $font_1;
+}
+
+.morris-hover.morris-default-style {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    background: #000 !important;
+    border: 0;
+    padding: 7px 22px 5px 22px !important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    span{
+        font-weight: bold;
+        margin: 0;
+        font-size: 12px;
+        font-weight: 300;
+        color: #7e7172;
+        line-height: 12px;
+        font-family: $font_1;
+    }
+}
+
+canvas#highlights {
+    height: 300px !important;
+    overflow: hidden;
+}

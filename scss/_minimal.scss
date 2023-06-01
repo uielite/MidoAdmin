@@ -1,0 +1,345 @@
+// minimal_header 
+.minimal_header{
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 270px;
+    background: #F6FBFE;
+    padding-left: 30px;
+    transition: .3s;
+    @media #{$medium_device} {
+        left: 20%;
+    }
+    @media #{$tab} {
+        left: 0%;
+        position: relative;
+        padding-left: 0;
+        background: #fff;
+    }
+    .header_right {
+        width: 380px;
+        background: #fff;
+        padding: 25px 30px;
+        @media #{$tab}{
+            padding: 25px 20px;
+            justify-content: flex-end !important;
+        }
+    }
+}
+.full_main_content{
+    .minimal_header{
+        left: 136px;
+    }
+}
+
+.get_roket_event{
+    position: fixed;
+    top: 0;
+    width: 380px;
+    background: #fff;
+    right: 0;
+    padding-top: 120px;
+    height: calc(100% - 0px);
+    overflow: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    @media #{$tab} {
+        display: none;
+    }
+    .date_picker_wrapper{
+        padding: 0px;
+        margin-top: 0;
+        .datepicker {
+            width: 100%;
+            box-shadow: none;
+            .datepicker--day-name {
+                color: #FF9A19;
+                font-size: 16px;
+                font-weight: 600;
+                color: #20265B;
+                text-transform: capitalize;
+            }
+            .datepicker--cell-day.-other-month-, .datepicker--cell-year.-other-decade- {
+                color: #fff;
+            }
+            .datepicker--nav-action {
+                width: 35px;
+                border-radius: 7px;
+                background: #F1F7FB;
+            }
+            .datepicker--nav-action path {
+                fill: none;
+                stroke: #919395;
+                stroke-width: 2px;
+            }
+            .datepicker--nav {
+                border-bottom: 1px solid#CCD1FF;
+                min-height: 32px;
+                padding: 4px;
+                padding-bottom: 15px;
+            }
+            .datepicker--cell.-selected-,
+            .datepicker--cell.-focus- {
+                background: #6C5DD3;
+                color: #fff;
+                border-radius: 11px;
+                border: 0;
+            }
+            .datepicker--cell.-current- {
+                background: #6C5DD3;
+                color: #fff;
+                border-radius: 11px;
+                border: 0;
+            }
+            .datepicker--nav-title {
+                color: #20265B;
+                text-transform: uppercase;
+                letter-spacing: 0;
+                font-weight: 600;
+                font-size: 22px;
+                text-transform: capitalize;
+                i{
+                    color: #20265B;
+                    display: none;
+                }
+            }
+        }
+        &::before {
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            border-radius: 10px;
+            background: #DCD6FF;
+        }
+    }
+}
+.main_content .main_content_iner{
+    &.minmal_width {
+        margin-right: 380px;
+        padding-top: 120px;
+        @media #{$tab} {
+            margin-right: 0px;
+            padding-top: 30px;
+        }
+    }
+}
+
+.upcoming_events{
+    
+    .upcoming_event_lists{
+        background: #FCFCFC;
+    border-radius: 25px;
+    padding: 20px;
+        .single_event_list{
+            display: flex;
+            align-items: center;
+            border-radius: 13px;
+            padding: 10px;
+            &:not(:last-child){
+                margin-bottom: 15px;
+            }
+            &.hovered{
+                
+            }
+            .event_img{
+                margin-right: 18px;
+                position: relative;
+                width: 105px;
+                z-index: 1;
+                flex: 105px 0 0;
+                &::before{
+                    position: absolute;
+                    left: 9px;
+                    top: 9px;
+                    height: 100%;
+                    right: 9px;
+                    content: '';
+                    background-image: url(../img/evant_shadow.png);
+                    border-radius:13px ;
+                    z-index: -1;
+                    transition: .3s;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+            .event_content{
+                width: 100%;
+                h4{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-bottom: 0;
+                }
+                i{
+                    font-size: 10px;
+                    color: #2C3C4A;
+                }
+                span{
+                    font-size: 14px;
+                    color: #59748A;
+                    font-weight: 400;
+                    font-style: italic;
+                    display: block;
+                    margin: 3px 0 10px 0;
+                }
+                .amount{
+                    background: #6C5DD3;
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: 500;
+                    border-radius: 10px;
+                    padding: 3px 16px;
+                    display: inline-block;
+                }
+            }
+            &:hover{
+                .event_img{
+                    &::before{
+                        top: 0px;
+                    }
+                }
+                background: #6C5DD3;
+                h4,i,span{
+                    color: #fff !important;
+                }
+                .amount{
+                    background: #fff !important;
+                    color: #6C5DD3 !important;
+                }
+            }
+        }
+    }
+}
+
+.top_events{
+    .top_event_inner{
+        background: #FCFCFC;
+        padding: 25px;
+        border-radius: 25px;
+        .single_event{
+            display: flex;
+            &:not(:last-child){
+                margin-bottom: 40px;
+            }
+            .thumb{
+                margin-right: 18px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                background-image: url(../img/event/5.png);
+                background-repeat: no-repeat;
+                background-position: center center;
+                width: 84px;
+                height: 87px;
+                background-size: 100% 100%;
+                flex: 84px 0 0;
+                &.thumb2{
+                    background-image: url(../img/event/3.png);
+                }
+                &.thumb3{
+                    background-image: url(../img/event/4.png);
+                }
+                h4{
+                    font-size: 30px;
+                    font-weight: 500;
+                    margin-bottom: 0;
+                    color: #20265B;
+                }
+                span{
+                    font-size: 16px;
+                    font-weight: 400;
+                    color:#20265B ;
+                }
+                img{
+
+                }
+            }
+            .event_content{
+                h4{
+                    font-size: 16px;
+                    color: #2C3C4A;
+                    font-weight: 500;
+                   margin-bottom: 10px;
+                }
+                .progressbar{
+                    .progressbar_titlle{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        h5{
+                            font-size: 16px;
+                            color: #C0C2D2;
+                            font-weight: 400;
+                            margin-bottom: 0;
+                        }
+                        span{
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: #C0C2D2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .view_more{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        span{
+            font-size: 14px;
+            font-weight: 400;
+            color: #A3A7CB;
+        }
+        a{
+            font-size: 14px;
+            font-weight: 400;
+            color: #6C5DD3;
+            align-items: center;
+            display: flex;
+            i{
+                margin-left: 10px;
+            }
+        }
+    }
+}
+.plan_wrap{
+    background-image: url(../img/event/plan.png);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding: 50px;
+    min-height: 300px;
+    h5{
+        font-size: 38px;
+        color: #FFFFFF;
+        line-height: 1.3;
+    }
+    p{
+        font-size: 16px;
+        color: #fff;
+        font-weight: 400;
+        margin: 20px 0 30px 0;
+    }
+    h3{
+        font-size: 58px;
+        color: #fff;
+        position: relative;
+        display: flex;
+        svg{
+            position: relative;
+            top: 13px;
+            right: -10px;
+        }
+    }
+}
+
+.sidebar.mini_sidebar .sidebar_title {
+    display: none;
+}

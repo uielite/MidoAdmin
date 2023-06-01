@@ -1,0 +1,32 @@
+.erroe_page_wrapper{
+    background: #232529;
+    @include background ( "../img/error/error_bg.png");
+    .errow_wrap{
+        display: flex;
+        padding: 40px 0;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 100px;
+            margin: auto;
+        }
+        .error_heading{
+            margin-top: 60px;
+            margin-bottom: 15px;
+            h3{
+                font-size: 55px;
+                font-weight: 500;
+                color: #fff;
+            }
+        }
+        p{
+            font-size: 30px;
+            color: #78768F;
+            font-weight: 400;
+            margin-top: 30px;
+            line-height: 35px;
+            margin-bottom: 30px;
+        }
+    }
+}
+

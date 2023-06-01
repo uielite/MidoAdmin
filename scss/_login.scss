@@ -1,0 +1,50 @@
+.login_bg{
+    background-image: url(../img/login.jpg);
+}
+.resister_bg{
+    background-image: url(../img/signup.jpg);
+}
+.login_wrapper{
+    display: grid;
+    grid-template-columns: 55% 45%  ;
+    align-items: center;
+    height: 100%;
+    &.login_wrapper_box{
+        max-width: 700px;
+        display: block;
+        background: #282A2E;
+        padding: 0;
+        margin: auto;
+        padding: 30px;
+        height: auto;
+        .login_wrapper_right{
+            padding: 0;
+        }
+    }
+    @media #{$tab} {
+        grid-template-columns: repeat(1,1fr)  ;
+        height: auto;
+    }
+    .login_wrapper_left{
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 100%;
+        @media #{$tab} {
+            height: 300px;
+        }
+    }
+    .login_wrapper_right{
+        padding-left: 100px;
+        @media #{$tab} {
+            padding-left: 0;
+        }
+        @media #{$lg_device} {
+            padding-left: 40px;
+        }
+        .login_wrapper_inner{
+
+        }
+    }
+}
+

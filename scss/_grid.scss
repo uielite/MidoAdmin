@@ -1,0 +1,42 @@
+/* -- Grid -- */
+.example-row {    
+    .grid-example {
+        position: relative;
+        padding: 1rem;
+        margin: 1rem -15px 0;
+        border: solid lighten(#0080ff, 35%);
+        border-width: .2rem 0 0;
+    }
+
+    .row {
+      >.col, >[class^=col-] {
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+        background-color: rgba(0, 128, 255, 0.1);
+        border: 1px solid #66b3ff;
+        color: #0080ff;
+      }
+      +.row {
+          margin-top: 1rem;
+      }      
+    }
+
+    &.example-row-flex-cols {
+        .row {
+            min-height: 10rem;
+            background-color: lighten(#0080ff, 30%);
+        }
+    }    
+}
+@media (min-width: 576px) {
+    .grid-example {
+      padding: 1.5rem;
+      margin-right: 0;
+      margin-left: 0;
+      border-width: .2rem;
+    }
+}
+
+// .docs-data > .input-group > span {
+//     min-width: 2rem !Important;
+// }

@@ -1,0 +1,16 @@
+.round_arrow {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	background: #fff;
+	flex: 40px 0 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background: #D9FFD6;
+    color: #5CAF55;
+    i{
+        transform: rotate(-45deg);
+    }
+}

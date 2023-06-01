@@ -1,0 +1,72 @@
+/********* breadcrumd css here **********/
+.breadcrumb_content{
+    background-color: $white;
+    padding: 19px 30px;
+    line-height: 22px;
+    @media #{$tab}{
+        padding: 25px 15px;
+    }
+    @media #{$tab_device}{
+        display: block !important; 
+    }
+    @media #{$medium_device}{
+        display: block !important; 
+    }
+
+
+    .active{
+        color: $base_color;
+    }
+    h2{
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 0;
+        @media #{$small_mobile}{
+           margin-bottom: 15px;
+           padding: 0;
+        }
+        @media #{$tab_device}{
+            margin-bottom: 15px;
+        }
+        @media #{$medium_device}{
+            margin-bottom: 15px;
+        }
+    }
+    .sa_breadcrumb_iner{
+        a{
+            position: relative;
+            color: $text_color;
+            padding-left: 30px;
+            &:after{
+                content: "";
+                position: absolute;
+                left: 10px;
+                top: 3px;
+                clip-path: polygon(0 0, 100% 55%, 0 100%);
+                background-color: $text_color;
+                width: 10px;
+                height: 10px;
+                @include transform_time(.5s);
+            }
+            &:first-child{
+                padding-left: 0;
+                &:after{
+                    display: none;
+                }
+            }
+            &:hover{
+                &:after{
+                    background-color: $base_color; 
+                }
+                color: $base_color; 
+            }
+            &:last-child{
+                color: $base_color;
+                &:after{
+                    background-color: $base_color;
+                }
+            }
+        }
+    }
+}
+/********* breadcrumd css end **********/

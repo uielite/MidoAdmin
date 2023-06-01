@@ -1,0 +1,22 @@
+// form style css
+.form_style{
+    .form-group{
+        label, p{
+            font-size: 14px;
+            font-weight: 300;
+            text-transform: capitalize;
+            margin-bottom: 13px;
+            color: $text_color;
+        }
+        input{
+            border: 1px solid $border_color_3;
+            font-size: 13px;
+            font-weight: 300;
+            color: $text_color;
+            padding: 15px 25px;
+            background-color: $section_bg;
+            height: auto;
+            line-height: 18px;
+        }
+    }
+}

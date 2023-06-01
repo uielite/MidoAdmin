@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>MidoAdmin</title>
+
+    <link rel="icon" href="img/mini_logo.png" type="image/png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- themefy CSS -->
+    <link rel="stylesheet" href="vendors/themefy_icon/themify-icons.css" />
+    <!-- select2 CSS -->
+    <link rel="stylesheet" href="vendors/niceselect/css/nice-select.css" />
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="vendors/owl_carousel/css/owl.carousel.css" />
+    <!-- gijgo css -->
+    <link rel="stylesheet" href="vendors/gijgo/gijgo.min.css" />
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="vendors/font_awesome/css/all.min.css" />
+    <link rel="stylesheet" href="vendors/tagsinput/tagsinput.css" />
+
+    <!-- date picker -->
+    <link rel="stylesheet" href="vendors/datepicker/date-picker.css" />
+
+    <link rel="stylesheet" href="vendors/vectormap-home/vectormap-2.0.2.css" />
+
+    <!-- scrollabe  -->
+    <link rel="stylesheet" href="vendors/scroll/scrollable.css" />
+    <!-- datatable CSS -->
+    <link rel="stylesheet" href="vendors/datatable/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="vendors/datatable/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="vendors/datatable/css/buttons.dataTables.min.css" />
+    <!-- text editor css -->
+    <link rel="stylesheet" href="vendors/text_editor/summernote-bs4.css" />
+    <!-- morris css -->
+    <link rel="stylesheet" href="vendors/morris/morris.css">
+    <!-- metarial icon css -->
+    <link rel="stylesheet" href="vendors/material_icon/material-icons.css" />
+
+    <!-- menu css  -->
+    <link rel="stylesheet" href="css/metisMenu.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/colors/default.css" id="colorSkinCSS">
+</head>
+
+<body class="crm_body_bg">
+
+
+    <!-- switcher_slide_wrapper  -->
+    <div class="switcher_slide_wrapper">
+        <div class="switcher_slide_wrapper_inner">
+            <div class="spin_icon_clicker">
+                <i class="fas fa-cog fa-spin"></i>
+            </div>
+            <h5>Sidebar Switcher</h5>
+            <!-- Color style  -->
+            <div class="colors option_width_8">
+                <li><a href="#" data-link="css/colors/default.css"> <i class="ti-palette"></i>Default</a></li>
+                <li><a href="#" data-link="css/colors/Purple.css"> <i class="ti-palette"></i>Purple</a></li>
+                <li><a href="#" data-link="css/colors/green.css"> <i class="ti-palette"></i>green</a></li>
+                <li><a href="#" data-link="css/colors/golden.css"> <i class="ti-palette"></i>golden</a></li>
+                <li><a href="#" data-link="css/colors/Orange.css"> <i class="ti-palette"></i>Orange</a></li>
+                <li><a href="#" data-link="css/colors/Blue.css"> <i class="ti-palette"></i>Blue</a></li>
+            </div>
+        </div>
+    </div>
+    <!-- sidebar  -->
+    <!-- main content part here -->
+
+    <!-- sidebar  -->
+    <nav class="sidebar dark_sidebar ">
+        <div class="logo d-flex justify-content-between">
+            <a class="large_logo" href="index.html"><img src="img/dark_logo.png" alt=""></a>
+            <a class="small_logo" href="index.html"><img src="img/mini_logo.png" alt=""></a>
+            <div class="sidebar_close_icon d-lg-none">
+                <i class="ti-close"></i>
+            </div>
+        </div>
+        <ul id="sidebar_menu">
+             <li class="">
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <img src="img/menu-icon/Dashboard.svg" alt="">
+                    </div>
+                    <div class="nav_title">
+                        <span>Dashboards</span>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="index.html">Analytics</a></li>
+                    <li><a href="lite.html">Sales</a></li>
+                    <li><a href="CRM.html">CRM</a></li>
+                     
+                </ul>
+            </li>
+            <li class="">
+                <a href="Booking.html" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <img src="img/menu-icon/Booking.svg" alt="">
+                    </div>
+                    <div class="nav_title">
+                        <span>Booking</span>
+                    </div>
+                </a>
+            </li>
+             
+            <li class="">
+                <a href="Summary.html" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <img src="img/menu-icon/Summary.svg" alt="">
+                    </div>
+                    <div class="nav_title">
+                        <span>Summary</span>
+                    </div>
+                </a>
+            </li>
+            <!-- <span class="sidebar_title">Pages</span>
+            <li class="">
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <img src="img/menu-icon/Single_Page.svg" alt="">
+                    </div>
+                    <div class="nav_title">
+                        <span>Single Page</span>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="Boxed.html">Boxed</a></li>
+                    <li><a href="Fluid.html">Fluid</a></li>
+                </ul>
+            </li>
+            <li class="">
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <img src="img/menu-icon/Fixed_Page.svg" alt="">
+                    </div>
+                    <div class="nav_title">
+                        <span>Fixed Page</span>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="fixed_footer.html">Fixed footer</a></li>
+                    <li><a href="Hide_header.html">Hide menu</a></li>
+                </ul>
+            </li>
+            <li class="">
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <img src="img/menu-icon/Grid_page.svg" alt="">
+                    </div>
+                    <div class="nav_title">
+                        <span>Grid page</span>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="Boxed_Grid.html">Boxed Grid</a></li>
+                    <li><a href="Fluid_Grid.html">Fluid Grid</a></li>
+                </ul>
+            </li>
+            <li class="">
+                <a href="empty_page.html" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <img src="img/menu-icon/Blank_Page.svg" alt="">
+                    </div>
+                    <div class="nav_title">
+                        <span>Blank Page</span>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <img src="img/menu-icon/Edit_Page.svg" alt="">
+                    </div>
+                    <div class="nav_title">
+                        <span>Edit Page</span>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="Boxed_Edit.html">Boxed Edit</a></li>
+                    <li><a href="fluid_Edit.html">Fluid Edit</a></li>
+                    <li><a href="wizard_Edit.html">Wizard Edit</a></li>
+                    <li><a href="canva_Edit.html">In Canvas Edit</a></li>
+                    <li><a href="modal_Edit.html">In Modal Edit</a></li>
+                </ul>
+            </li> -->
+            <span class="sidebar_title">Auth Pages
+            </span>
+            <li class="">
+                <a href="login.html" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <img src="img/menu-icon/Login.svg" alt="">
+                    </div>
+                    <div class="nav_title">
+                        <span>Login</span>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="resister.html" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <img src="img/menu-icon/Login.svg" alt="">
+                    </div>
+                    <div class="nav_title">
+                        <span>Sign Up</span>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="error_400.html" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <img src="img/menu-icon/error_400.svg" alt="">
+                    </div>
+                    <div class="nav_title">
+                        <span>404 Page</span>
+                    </div>
+                </a>
+            </li>
+
+            <li class="">
+                <a href="error_500.html" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <img src="img/menu-icon/error_500.svg" alt="">
+                    </div>
+                    <div class="nav_title">
+                        <span>500 Page</span>
+                    </div>
+                </a>
+            </li>
+            <span class="sidebar_title">Apps</span>
+
+            <li class="">
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <img src="img/menu-icon/Application.svg" alt="">
+                    </div>
+                    <div class="nav_title">
+                        <span>Application</span>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="Inbox.html">Inbox</a></li>
+                    <li><a href="Chat.html">chat</a></li>
+                    <li><a href="invoice.html">Invoice</a></li>
+                    <li><a href="File_Upload.html">File Upload</a></li>
+                    <li><a href="Note.html">Note</a></li>
+                    <li><a href="File_Manager.html">File Manager</a></li>
+                     
+                    <li><a href="editor.html">Editor</a></li>
+                    <li><a href="Calendar.html">Calendar</a></li>
+                    <li><a href="To_do_list.html">Todo</a></li>
+                </ul>
+            </li>
+            <span class="sidebar_title">Elements</span>
+            <li class="">
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <img src="img/menu-icon/Components.svg" alt="">
+                    </div>
+                    <div class="nav_title">
+                        <span>Components</span>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="zoom_img.html">Image Zoom</a></li>
+                    <li><a href="mapjs.html">Maps JS</a></li>
+                    <li><a href="vector_map.html">Vector Maps</a></li>
+                    <li><a href="basic_card.html">Basic Card</a></li>
+                    <li><a href="theme_card.html">Theme Card</a></li>
+                     <li><a href="dargable_card.html">Cards</a></li>
+                    <li><a href="buttons.html">Buttons</a></li>
+                    <li><a href="Alerts.html">Alerts</a></li>
+                    <li><a href="Avatar.html">Avatar</a></li>
+                    <li><a href="Fontawesome_Icon.html">Fontawesome Icon</a></li>
+                    <li><a href="themefy_icon.html">themefy icon</a></li>
+                    <li><a href="Modal.html">Modal</a></li>
+                    <li><a href="progressbar.html">Progressbar</a></li>
+                    <li><a href="typography.html">Typography</a></li>
+                    <li><a href="Pagination.html">Pagination</a></li>
+                    <li><a href="Loading_Indicators.html">Loading Indicators</a></li>
+                    <li><a href="data_table.html">Data Tables</a></li>
+                    <li><a href="bootstrap_table.html">Bootstrap table</a></li>
+                    <li><a href="forgot_pass.html">Forgot Password</a></li>
+                </ul>
+            </li>
+            <li class="">
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <img src="img/menu-icon/Charts.svg" alt="">
+                    </div>
+                    <div class="nav_title">
+                        <span>Charts</span>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="chartjs.html">ChartJS</a></li>
+                    <li><a href="am_chart.html">am-charts</a></li>
+                    <li><a href="nvd3_charts.html">nvd3 charts.</a></li>
+                    <li><a href="apex_chart.html">Apex Charts</a></li>
+                    <li><a href="chart_sparkline.html">Chart sparkline</a></li>
+                </ul>
+            </li>
+
+            <li class="">
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <img src="img/menu-icon/Pages.svg" alt="">
+                    </div>
+                    <div class="nav_title">
+                        <span>Pages </span>
+                    </div>
+                </a>
+                <ul>
+                     
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="Checkout.html">Checkout</a></li>
+                    <li><a href="Builder.html">Builder</a></li>
+                    <li><a href="Mail.html">Mail</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="Product_Details.html">Product Details</a></li>
+                    <li><a href="Product_add.html">Product Add</a></li>
+                    <li><a href="Product_Edit.html">Product Edit</a></li>
+                    <li><a href="Cart.html">Cart</a></li>
+                    <li><a href="Orders.html">Orders</a></li>
+                    <li><a href="Sellers.html">Sellers</a></li>
+                    <li><a href="lite.html">lite</a></li>
+                    <li><a href="dark.html">Dark</a></li>
+                     
+                    <li><a href="Regular_Form.html">Form</a></li>
+                 </ul>
+            </li>
+
+
+
+        </ul>
+    </nav>
+    <!--/ sidebar  -->
+
+    <section class="main_content dashboard_part ">
+        <!-- menu  -->
+        <div class="container-fluid  ">
+            <div class="row">
+                <div class="col-lg-12 p-0 ">
+                    <!-- minimal_header  -->
+                    <div class="header_iner d-flex justify-content-between align-items-center">
+                        <div class="sidebar_icon d-lg-none">
+                            <i class="ti-menu"></i>
+                        </div>
+                        <!-- <div class="line_icon open_miniSide d-none d-lg-block">
+                        <img src="img/line_img.png" alt="">
+                    </div> -->
+
+                        <div class="sidebar_icon d-lg-none">
+                            <i class="ti-menu"></i>
+                        </div>
+                        <div class="line_icon open_miniSide d-none d-lg-block">
+                            <img src="img/line_img.png" alt="">
+                        </div>
+                        <div class="header_left">
+                            <div class="serach_field-area d-flex align-items-center ms-0">
+                                <div class="search_inner">
+                                    <form action="#">
+                                        <div class="search_field">
+                                            <input type="text" placeholder="Search...">
+                                        </div>
+                                        <button type="submit">
+                                            <img src="img/search_icon.png" alt="">
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header_right d-flex justify-content-between align-items-center">
+                            <div class="header_notification_warp d-flex align-items-center">
+                                <li>
+                                    <a class="#" href="#"> <img src="img/icon/Sun.svg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a class="CHATBOX_open" href="#"> <img src="img/icon/msg.svg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a class="bell_notification_clicker" href="#"> <img src="img/icon/bell.svg" alt="">
+
+                                    </a>
+                                    <!-- Menu_NOtification_Wrap  -->
+                                    <div class="Menu_NOtification_Wrap  multy_notification">
+                                        <div class="notification_Header">
+                                            <h4>Notifications</h4>
+                                            <p>You have 21 unread messages</p>
+                                        </div>
+                                        <div class="notify_tabs_body">
+                                            <ul class="nav notify_tab" id="myTab" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                                        href="#home" role="tab" aria-controls="home"
+                                                        aria-selected="true">Messages</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                                                        href="#profile" role="tab" aria-controls="profile"
+                                                        aria-selected="false">Events</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                                                        href="#contact" role="tab" aria-controls="contact"
+                                                        aria-selected="false">System Errors</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="myTabContent">
+                                                <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                                    aria-labelledby="home-tab">
+                                                    <!-- content  -->
+                                                    <div class="Activity_timeline">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="activity_bell"></div>
+                                                                <div class="timeLine_inner">
+                                                                    <div class="activity_wrap">
+                                                                        <p>Yet another one, at 15:00 PM
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="activity_bell"></div>
+                                                                <div class="timeLine_inner">
+                                                                    <div class="activity_wrap">
+                                                                        <p>Build the production release
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="activity_bell"></div>
+                                                                <div class="timeLine_inner">
+                                                                    <div class="activity_wrap">
+                                                                        <p>Something not Important</p>
+                                                                    </div>
+                                                                    <div class="thumb_lits">
+                                                                        <div class="thumb">
+                                                                            <img src="img/multypage_icon/man.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="thumb">
+                                                                            <img src="img/multypage_icon/man2.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="thumb">
+                                                                            <img src="img/multypage_icon/man3.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="thumb">
+                                                                            <img src="img/multypage_icon/man4.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="thumb">
+                                                                            <img src="img/multypage_icon/man5.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="thumb">
+                                                                            <img src="img/multypage_icon/man6.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="thumb small_thumb">
+                                                                            <img src="img/multypage_icon/Ellipse_plus.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="#" class="theme_line_btn">View All</a>
+                                                    <!-- content  -->
+                                                </div>
+                                                <div class="tab-pane fade" id="profile" role="tabpanel"
+                                                    aria-labelledby="profile-tab">
+                                                    <!-- content  -->
+                                                    <div class="Activity_timeline">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="activity_bell"></div>
+                                                                <div class="timeLine_inner">
+                                                                    <div class="activity_wrap">
+                                                                        <p>All Hands Meeting
+                                                                        </p>
+                                                                        <span>Lorem ipsum dolor sic amet, today at 12:00
+                                                                            PM </span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="activity_bell"></div>
+                                                                <div class="timeLine_inner">
+                                                                    <div class="activity_wrap">
+                                                                        <p>Another meeting today, at 12:00 PM
+                                                                        </p>
+                                                                        <span>Yet another one, at 15:00 PM</span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="activity_bell"></div>
+                                                                <div class="timeLine_inner">
+                                                                    <div class="activity_wrap">
+                                                                        <p>Build the production release
+                                                                        </p>
+                                                                        <span>Lorem ipsum dolor sic amet, today at 12:00
+                                                                            PM </span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="#" class="theme_line_btn">View All</a>
+                                                    <!-- content  -->
+                                                </div>
+                                                <div class="tab-pane fade" id="contact" role="tabpanel"
+                                                    aria-labelledby="contact-tab">
+                                                    <div class="system_error_catch">
+                                                        <div class="thumb">
+                                                            <img src="img/multypage_icon/check.png" alt="">
+                                                        </div>
+                                                        <h3>All caught up!</h3>
+                                                        <p>There are no system errors!</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/ Menu_NOtification_Wrap  -->
+                                </li>
+                            </div>
+                            <div class="profile_info d-flex align-items-center">
+                                <div class="author_name text-end">
+                                    <h4 class="f_s_14 f_w_800 mb-0">Jon Smith</h4>
+                                    <p class="f_s_12 f_w_400">Director</p>
+                                </div>
+                                <div class="profile_thumb mr_20">
+                                    <img src="img/client_img.png" alt="#">
+                                </div>
+
+                                <div class="profile_info_iner">
+                                    <div class="profile_author_name">
+                                        <div class="thumb">
+                                            <img src="img/client_img.png" alt="#">
+                                        </div>
+                                        <div class="profile_author_info">
+                                            <p>Jon Smith</p>
+                                            <h5>Director</h5>
+                                        </div>
+                                    </div>
+                                    <div class="profile_info_details">
+                                        <a href="#">Activity </a>
+                                        <a href="#">Chat </a>
+                                        <a href="#">Recover Password</a>
+                                        <a href="#">Support Tickets</a>
+                                        <a href="#">Message Box</a>
+
+                                    </div>
+                                    <div class="logout_btn">
+                                        <a href="#" class="btn_1 blue m-0">Log Out</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ menu  -->
+        <div class="main_content_iner overly_inner">
+            <div class="container-fluid p-0 ">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="fs-3 mt-2 mb-3">Sales</h3>
+                    </div>
+                </div>
+                <!-- page title  -->
+                <div class="row ">
+                    <div class="col-xxl-6">
+                        <div class="row">
+                            <div class="col-xxl-6">
+                                <div class="white_card mb_30 ">
+                                    <div class="white_card_header">
+                                        <div class="box_header m-0">
+                                            <div class="main-title">
+                                                <h3 class="m-0 ">Net Profit</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="white_card_body p-0">
+                                        <h2 class="fs-3 ps-4">$42.5k</h2>
+                                        <p class="status_text fs-6 ps-4">
+                                            <span class="percentage color-success">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-arrow-up">
+                                                    <line x1="12" y1="19" x2="12" y2="5"></line>
+                                                    <polyline points="5 12 12 5 19 12"></polyline>
+                                                </svg>
+                                                <span>25%</span>
+                                            </span>
+                                            <span class="forcast-text">Since last month</span>
+                                        </p>
+                                        <div id="chart9"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-6">
+                                <div class="white_card mb_30 ">
+                                    <div class="white_card_header">
+                                        <div class="box_header m-0">
+                                            <div class="main-title">
+                                                <h3 class="m-0 ">Gross Profit</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="white_card_body p-0">
+                                        <h2 class="fs-3 ps-4">$42.5k</h2>
+                                        <p class="status_text fs-6 ps-4">
+                                            <span class="percentage color-danger">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-arrow-up">
+                                                    <line x1="12" y1="19" x2="12" y2="5"></line>
+                                                    <polyline points="5 12 12 5 19 12"></polyline>
+                                                </svg>
+                                                <span>8%</span>
+                                            </span>
+                                            <span class="forcast-text">Since last month</span>
+                                        </p>
+                                        <div id="chart10"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-6">
+                                <div class="white_card mb_30 ">
+                                    <div class="white_card_header">
+                                        <div class="box_header m-0">
+                                            <div class="main-title">
+                                                <h3 class="m-0 ">Quick Ratio</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="white_card_body">
+                                        <h2 class="fs-3">1.8</h2>
+                                        <div class="single_progressbar">
+                                            <div id="bar1" class="barfiller">
+                                                <div class="tipWrap">
+                                                    <span class="tip"></span>
+                                                </div>
+                                                <span class="fill" data-percentage="80"></span>
+                                            </div>
+                                        </div>
+                                        <p class="f_s_14"> <span class="f_w_500 text-black">1 or higher</span> quick
+                                            ratio target </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-6">
+                                <div class="white_card mb_30 ">
+                                    <div class="white_card_header">
+                                        <div class="box_header m-0">
+                                            <div class="main-title">
+                                                <h3 class="m-0 ">Current Ratio</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="white_card_body">
+                                        <h2 class="fs-3">2.2</h2>
+                                        <div class="single_progressbar">
+                                            <div id="bar2" class="barfiller">
+                                                <div class="tipWrap">
+                                                    <span class="tip"></span>
+                                                </div>
+                                                <span class="fill" data-percentage="80"></span>
+                                            </div>
+                                        </div>
+                                        <p class="f_s_14"> <span class="f_w_500 theme_text">1 or higher</span> quick
+                                            ratio target </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xxl-6">
+                        <div class="white_card  mb_30 card_height_100">
+                            <div class="white_card_header border_botoom1px pb-0">
+                                <div class="box_header m-0 flex-wrap gap-3 ">
+                                    <div class="main-title d-flex align-items-center flex-wrap gap-2">
+                                        <h3 class="m-0 ">Total Revenue</h3>
+                                        <p class="mb-0">Nov 23, 2019 - Nov 29, 2019</p>
+                                    </div>
+                                    <div class="page_title_right d-flex align-items-center">
+                                        <div class="card-action4 card-tabs">
+                                            <ul class="nav" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" data-bs-toggle="tab" href="#user" role="tab"
+                                                        aria-selected="false">
+                                                        This year
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" data-bs-toggle="tab" href="#bounce" role="tab"
+                                                        aria-selected="false">
+                                                        This month
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" data-bs-toggle="tab" href="#user" role="tab"
+                                                        aria-selected="false">
+                                                        This week
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" data-bs-toggle="tab" href="#bounce"
+                                                        role="tab" aria-selected="true">
+                                                        Today
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="white_card_body">
+                                <div id="bar_line"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-12">
+                        <div class="white_card  mb_30 card_height_100">
+                            <div class="white_card_header border_botoom1px pb-0">
+                                <div class="box_header m-0 flex-wrap gap-3 ">
+                                    <div class="main-title d-flex align-items-center flex-wrap gap-2">
+                                        <h3 class="m-0 ">Income And Expenses</h3>
+                                        <p class="mb-0">Nov 23, 2019 - Nov 29, 2019</p>
+                                    </div>
+                                    <div class="page_title_right d-flex align-items-center">
+                                        <div class="card-action4 card-tabs">
+                                            <ul class="nav" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" data-bs-toggle="tab" href="#user" role="tab"
+                                                        aria-selected="false">
+                                                        This year
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" data-bs-toggle="tab" href="#bounce" role="tab"
+                                                        aria-selected="false">
+                                                        This month
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" data-bs-toggle="tab" href="#user" role="tab"
+                                                        aria-selected="false">
+                                                        This week
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" data-bs-toggle="tab" href="#bounce"
+                                                        role="tab" aria-selected="true">
+                                                        Today
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="white_card_body pt-0 pb-0">
+                                <div class="Income_ex_body ">
+                                    <div class="Income_ex_left">
+                                        <div class="Income_ex__single">
+                                            <span class="inEx-subtitle">Total income</span>
+                                            <div class="inEx__info d-flex align-items-end">
+                                                <h3 class="inEx__title m-0 f_s_20">$74,820</h3>
+                                                <span class="inEx-tail color-light">
+                                                    <span class="inEx__percentage color-success">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" class="feather feather-arrow-up">
+                                                            <line x1="12" y1="19" x2="12" y2="5"></line>
+                                                            <polyline points="5 12 12 5 19 12"></polyline>
+                                                        </svg>77%</span>
+                                                    Since last month
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="Income_ex__single">
+                                            <span class="inEx-subtitle">Total income</span>
+                                            <div class="inEx__info d-flex align-items-end">
+                                                <h3 class="inEx__title m-0 f_s_20">$74,820</h3>
+                                                <span class="inEx-tail color-light">
+                                                    <span class="inEx__percentage color-success">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" class="feather feather-arrow-up">
+                                                            <line x1="12" y1="19" x2="12" y2="5"></line>
+                                                            <polyline points="5 12 12 5 19 12"></polyline>
+                                                        </svg>31%</span>
+                                                    Since last month
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="Income_ex_right">
+                                        <div id="bar_line2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-6">
+                        <div class="white_card  mb_30 card_height_100">
+                            <div class="white_card_header border_botoom1px">
+                                <div class="box_header m-0 flex-wrap gap-3 ">
+                                    <div class="main-title d-flex align-items-center flex-wrap gap-2">
+                                        <h3 class="m-0 ">Account Receivable</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="white_card_body pt-0 pb-0">
+                                <div class="Income_ex_body ">
+                                    <div id="area_chart"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-6">
+                        <div class="white_card  mb_30 card_height_100">
+                            <div class="white_card_header border_botoom1px">
+                                <div class="box_header m-0 flex-wrap gap-3 ">
+                                    <div class="main-title d-flex align-items-center flex-wrap gap-2">
+                                        <h3 class="m-0 ">Account Payable</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="white_card_body pt-0 pb-0">
+                                <div class="Income_ex_body ">
+                                    <div id="area_chart2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4">
+                        <div class="white_card line_style mb_30 card_height_100">
+                            <div class="white_card_header">
+                                <div class="box_header m-0">
+                                    <div class="main-title">
+                                        <h3 class="m-0 ">Waiting for an Answer </h3>
+                                    </div>
+                                    <div class="page_title_right d-flex align-items-center">
+                                        <div class="header_more_tool">
+                                            <div class="dropdown">
+                                                <span class="dropdown-toggle double_dot" data-bs-toggle="dropdown"
+                                                    aria-expanded="false" id="dropdownMenuButton"
+                                                    data-bs-toggle="dropdown">
+                                                    <i class="ti-more-alt"></i>
+                                                </span>
+                                                <div class="dropdown-menu dropdown-menu-right"
+                                                    aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#"> <i class="ti-eye"></i> Action</a>
+                                                    <a class="dropdown-item" href="#"> <i class="ti-trash"></i>
+                                                        Delete</a>
+                                                    <a class="dropdown-item" href="#"> <i class="fas fa-edit"></i>
+                                                        Edit</a>
+                                                    <a class="dropdown-item" href="#"> <i class="ti-printer"></i>
+                                                        Print</a>
+                                                    <a class="dropdown-item" href="#"> <i class="fa fa-download"></i>
+                                                        Download</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="white_card_body">
+                                <div class="list_wized">
+                                    <div
+                                        class="single_list d-flex gap-2 justify-content-between align-items-center flex-wrap mb_30">
+                                        <div class="single_list_left d-flex align-items-center">
+                                            <div class="thumb mr_10">
+                                                <img src="img/ans_1.png" alt="">
+                                            </div>
+                                            <div class="answer_content">
+                                                <h4 class="f_s_15">Grace Buck</h4>
+                                                <p class="f_s_14">Maryland</p>
+                                            </div>
+                                        </div>
+                                        <div class="single_list_right d-flex align-items-center">
+                                            <h4 class="f_s_18 mr_10 mb-0">%43 </h4>
+                                            <a href="#" class="btn_1 blue"> <img class="me-1" src="img/ans_arrow.png"
+                                                    alt=""> Send</a>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="single_list d-flex gap-2 justify-content-between align-items-center flex-wrap mb_30">
+                                        <div class="single_list_left d-flex align-items-center">
+                                            <div class="thumb mr_10">
+                                                <img src="img/ans_2.png" alt="">
+                                            </div>
+                                            <div class="answer_content">
+                                                <h4 class="f_s_15">Jane Lee</h4>
+                                                <p class="f_s_14">Maryland</p>
+                                            </div>
+                                        </div>
+                                        <div class="single_list_right d-flex align-items-center">
+                                            <h4 class="f_s_18 mr_10 mb-0">%43 </h4>
+                                            <a href="#" class="btn_1 blue"> <img class="me-1" src="img/ans_arrow.png"
+                                                    alt=""> Send</a>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="single_list d-flex gap-2 justify-content-between align-items-center flex-wrap mb_30">
+                                        <div class="single_list_left d-flex align-items-center">
+                                            <div class="thumb mr_10">
+                                                <img src="img/ans_3.png" alt="">
+                                            </div>
+                                            <div class="answer_content">
+                                                <h4 class="f_s_15">Ella Oliver</h4>
+                                                <p class="f_s_14">Maryland</p>
+                                            </div>
+                                        </div>
+                                        <div class="single_list_right d-flex align-items-center">
+                                            <h4 class="f_s_18 mr_10 mb-0">%43 </h4>
+                                            <a href="#" class="btn_1 blue"> <img class="me-1" src="img/ans_arrow.png"
+                                                    alt=""> Send</a>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="single_list d-flex gap-2 justify-content-between align-items-center flex-wrap mb_30">
+                                        <div class="single_list_left d-flex align-items-center">
+                                            <div class="thumb mr_10">
+                                                <img src="img/ans_4.png" alt="">
+                                            </div>
+                                            <div class="answer_content">
+                                                <h4 class="f_s_15">Sam Roberts</h4>
+                                                <p class="f_s_14">Maryland</p>
+                                            </div>
+                                        </div>
+                                        <div class="single_list_right d-flex align-items-center">
+                                            <h4 class="f_s_18 mr_10 mb-0">%43 </h4>
+                                            <a href="#" class="btn_1 blue"> <img class="me-1" src="img/ans_arrow.png"
+                                                    alt=""> Send</a>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="single_list d-flex gap-2 justify-content-between align-items-center flex-wrap ">
+                                        <div class="single_list_left d-flex align-items-center">
+                                            <div class="thumb mr_10">
+                                                <img src="img/ans_5.png" alt="">
+                                            </div>
+                                            <div class="answer_content">
+                                                <h4 class="f_s_15">Sam Roberts</h4>
+                                                <p class="f_s_14">Maryland</p>
+                                            </div>
+                                        </div>
+                                        <div class="single_list_right d-flex align-items-center">
+                                            <h4 class="f_s_18 mr_10 mb-0">%43 </h4>
+                                            <a href="#" class="btn_1 blue"> <img class="me-1" src="img/ans_arrow.png"
+                                                    alt=""> Send</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4">
+                        <div class="white_card line_style mb_30 card_height_100">
+                            <div class="white_card_header">
+                                <div class="box_header m-0">
+                                    <div class="main-title">
+                                        <h3 class="m-0 ">Recent Activities</h3>
+                                    </div>
+                                    <div class="page_title_right d-flex align-items-center">
+                                        <div class="header_more_tool">
+                                            <div class="dropdown">
+                                                <span class="dropdown-toggle double_dot" data-bs-toggle="dropdown"
+                                                    aria-expanded="false" id="dropdownMenuButton"
+                                                    data-bs-toggle="dropdown">
+                                                    <i class="ti-more-alt"></i>
+                                                </span>
+                                                <div class="dropdown-menu dropdown-menu-right"
+                                                    aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#"> <i class="ti-eye"></i> Action</a>
+                                                    <a class="dropdown-item" href="#"> <i class="ti-trash"></i>
+                                                        Delete</a>
+                                                    <a class="dropdown-item" href="#"> <i class="fas fa-edit"></i>
+                                                        Edit</a>
+                                                    <a class="dropdown-item" href="#"> <i class="ti-printer"></i>
+                                                        Print</a>
+                                                    <a class="dropdown-item" href="#"> <i class="fa fa-download"></i>
+                                                        Download</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="white_card_body">
+                                <div class="Activity_timeline">
+                                    <ul>
+                                        <li>
+                                            <div class="activity_bell"></div>
+                                            <div class="timeLine_inner d-flex align-items-center gap-3">
+                                                <div class="activity_wrap">
+                                                    <h6> <span>Your profile updated</span> </h6>
+                                                    <p>Many desktop publishing
+                                                        packages and web
+                                                    </p>
+                                                </div>
+                                                <p class="text-nowrap">10 min ago</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="activity_bell bell_1"></div>
+                                            <div class="timeLine_inner d-flex align-items-center gap-3">
+                                                <div class="activity_wrap">
+                                                    <h6> <span>Your profile updated</span> </h6>
+                                                    <p>Many desktop publishing
+                                                        packages and web
+                                                    </p>
+                                                </div>
+                                                <p class="text-nowrap">15 min ago</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="activity_bell bell_2"></div>
+                                            <div class="timeLine_inner d-flex align-items-center gap-3">
+                                                <div class="activity_wrap">
+                                                    <h6> <span>Your profile updated</span></h6>
+                                                    <p>Many desktop publishing
+                                                        packages and web
+                                                    </p>
+                                                </div>
+                                                <p class="text-nowrap">10 min ago</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="activity_bell bell_3"></div>
+                                            <div class="timeLine_inner d-flex align-items-center gap-3">
+                                                <div class="activity_wrap">
+                                                    <h6> <span>Your profile updated</span></h6>
+                                                    <p>Many desktop publishing
+                                                        packages and web
+                                                    </p>
+                                                </div>
+                                                <p class="text-nowrap">10 min ago</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="activity_bell"></div>
+                                            <div class="timeLine_inner d-flex align-items-center gap-3">
+                                                <div class="activity_wrap">
+                                                    <h6> <span>Apply for overtime</span></h6>
+                                                    <p>Many desktop publishing
+                                                        packages and web
+                                                    </p>
+                                                </div>
+                                                <p class="text-nowrap">10 min ago</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4">
+                        <div class="white_card line_style mb_30 card_height_100">
+                            <div class="white_card_header">
+                                <div class="box_header m-0">
+                                    <div class="main-title">
+                                        <h3 class="m-0 ">Transaction </h3>
+                                    </div>
+                                    <div class="page_title_right d-flex align-items-center">
+                                        <div class="header_more_tool">
+                                            <div class="dropdown">
+                                                <span class="dropdown-toggle double_dot" data-bs-toggle="dropdown"
+                                                    aria-expanded="false" id="dropdownMenuButton"
+                                                    data-bs-toggle="dropdown">
+                                                    <i class="ti-more-alt"></i>
+                                                </span>
+                                                <div class="dropdown-menu dropdown-menu-right"
+                                                    aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#"> <i class="ti-eye"></i> Action</a>
+                                                    <a class="dropdown-item" href="#"> <i class="ti-trash"></i>
+                                                        Delete</a>
+                                                    <a class="dropdown-item" href="#"> <i class="fas fa-edit"></i>
+                                                        Edit</a>
+                                                    <a class="dropdown-item" href="#"> <i class="ti-printer"></i>
+                                                        Print</a>
+                                                    <a class="dropdown-item" href="#"> <i class="fa fa-download"></i>
+                                                        Download</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="white_card_body">
+                                <div class="list_wized">
+                                    <div
+                                        class="single_list d-flex gap-2 justify-content-between align-items-center flex-wrap mb_30">
+                                        <div class="single_list_left d-flex align-items-center">
+                                            <div class="thumb mr_10">
+                                                <img src="img/ans_6.png" alt="">
+                                            </div>
+                                            <div class="answer_content">
+                                                <h4 class="f_s_16">Grace Buckland</h4>
+                                                <p class="f_s_14">Maryland</p>
+                                            </div>
+                                        </div>
+                                        <div class="single_list_right d-flex align-items-center flex-column">
+                                            <h4 class="f_s_18 mb-2 green_text">+$1.600</h4>
+                                            <p>Payment</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="single_list d-flex gap-2 justify-content-between align-items-center flex-wrap mb_30">
+                                        <div class="single_list_left d-flex align-items-center">
+                                            <div class="thumb mr_10">
+                                                <img src="img/ans_7.png" alt="">
+                                            </div>
+                                            <div class="answer_content">
+                                                <h4 class="f_s_16">Grace Buckland</h4>
+                                                <p class="f_s_14">Maryland</p>
+                                            </div>
+                                        </div>
+                                        <div class="single_list_right d-flex align-items-center flex-column">
+                                            <h4 class="f_s_18 mb-2 red_text">-$320</h4>
+                                            <p>Payment</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="single_list d-flex gap-2 justify-content-between align-items-center flex-wrap mb_30">
+                                        <div class="single_list_left d-flex align-items-center">
+                                            <div class="thumb mr_10">
+                                                <img src="img/ans_8.png" alt="">
+                                            </div>
+                                            <div class="answer_content">
+                                                <h4 class="f_s_16">Grace Buckland</h4>
+                                                <p class="f_s_14">Maryland</p>
+                                            </div>
+                                        </div>
+                                        <div class="single_list_right d-flex align-items-center flex-column">
+                                            <h4 class="f_s_18 mb-2 green_text">+$1.600</h4>
+                                            <p>Payment</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="single_list d-flex gap-2 justify-content-between align-items-center flex-wrap mb_30">
+                                        <div class="single_list_left d-flex align-items-center">
+                                            <div class="thumb mr_10">
+                                                <img src="img/ans_9.png" alt="">
+                                            </div>
+                                            <div class="answer_content">
+                                                <h4 class="f_s_16">Grace Buckland</h4>
+                                                <p class="f_s_14">Maryland</p>
+                                            </div>
+                                        </div>
+                                        <div class="single_list_right d-flex align-items-center flex-column">
+                                            <h4 class="f_s_18 mb-2 red_text">-$320</h4>
+                                            <p>Payment</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="single_list d-flex gap-2 justify-content-between align-items-center flex-wrap">
+                                        <div class="single_list_left d-flex align-items-center">
+                                            <div class="thumb mr_10">
+                                                <img src="img/ans_10.png" alt="">
+                                            </div>
+                                            <div class="answer_content">
+                                                <h4 class="f_s_16">Grace Buckland</h4>
+                                                <p class="f_s_14">Maryland</p>
+                                            </div>
+                                        </div>
+                                        <div class="single_list_right d-flex align-items-center flex-column">
+                                            <h4 class="f_s_18 mb-2 green_text">+$1.600</h4>
+                                            <p>Payment</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- main content part end -->
+
+    <div class="footer_part">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer_iner d-flex align-items-center justify-content-between">
+                        <p>Copyright © 2021 </p>
+                        <p>UI-Elite</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ### CHAT_MESSAGE_BOX   ### -->
+
+    <div class="CHAT_MESSAGE_POPUPBOX">
+        <div class="CHAT_POPUP_HEADER">
+            <div class="MSEESAGE_CHATBOX_CLOSE">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M7.09939 5.98831L11.772 10.661C12.076 10.965 12.076 11.4564 11.772 11.7603C11.468 12.0643 10.9766 12.0643 10.6726 11.7603L5.99994 7.08762L1.32737 11.7603C1.02329 12.0643 0.532002 12.0643 0.228062 11.7603C-0.0760207 11.4564 -0.0760207 10.965 0.228062 10.661L4.90063 5.98831L0.228062 1.3156C-0.0760207 1.01166 -0.0760207 0.520226 0.228062 0.216286C0.379534 0.0646715 0.578697 -0.0114918 0.777717 -0.0114918C0.976738 -0.0114918 1.17576 0.0646715 1.32737 0.216286L5.99994 4.889L10.6726 0.216286C10.8243 0.0646715 11.0233 -0.0114918 11.2223 -0.0114918C11.4213 -0.0114918 11.6203 0.0646715 11.772 0.216286C12.076 0.520226 12.076 1.01166 11.772 1.3156L7.09939 5.98831Z"
+                        fill="white" />
+                </svg>
+
+            </div>
+            <h3>Chat with us</h3>
+            <div class="Chat_Listed_member">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="member_thumb">
+                                <img src="img/staf/1.png" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="member_thumb">
+                                <img src="img/staf/2.png" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="member_thumb">
+                                <img src="img/staf/3.png" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="member_thumb">
+                                <img src="img/staf/4.png" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="member_thumb">
+                                <img src="img/staf/5.png" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="member_thumb">
+                                <div class="more_member_count">
+                                    <span>90+</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="CHAT_POPUP_BODY">
+            <p class="mesaged_send_date">
+                Sunday, 12 January
+            </p>
+
+            <div class="CHATING_SENDER">
+                <div class="SMS_thumb">
+                    <img src="img/staf/1.png" alt="">
+                </div>
+                <div class="SEND_SMS_VIEW">
+                    <P>Hi! Welcome .
+                        How can I help you?</P>
+                </div>
+            </div>
+
+            <div class="CHATING_SENDER CHATING_RECEIVEr">
+
+                <div class="SEND_SMS_VIEW">
+                    <P>Hello</P>
+                </div>
+                <div class="SMS_thumb">
+                    <img src="img/staf/1.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="CHAT_POPUP_BOTTOM">
+            <div class="chat_input_box d-flex align-items-center">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Write your message"
+                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn " type="button">
+                            <!-- svg      -->
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.7821 3.21895C14.4908 -1.07281 7.50882 -1.07281 3.2183 3.21792C-1.07304 7.50864 -1.07263 14.4908 3.21872 18.7824C7.50882 23.0729 14.4908 23.0729 18.7817 18.7815C23.0726 14.4908 23.0724 7.50906 18.7821 3.21895ZM17.5813 17.5815C13.9525 21.2103 8.04773 21.2108 4.41871 17.5819C0.78907 13.9525 0.789485 8.04714 4.41871 4.41832C8.04752 0.789719 13.9521 0.789304 17.5817 4.41874C21.2105 8.04755 21.2101 13.9529 17.5813 17.5815ZM6.89503 8.02162C6.89503 7.31138 7.47107 6.73534 8.18131 6.73534C8.89135 6.73534 9.46739 7.31117 9.46739 8.02162C9.46739 8.73228 8.89135 9.30811 8.18131 9.30811C7.47107 9.30811 6.89503 8.73228 6.89503 8.02162ZM12.7274 8.02162C12.7274 7.31138 13.3038 6.73534 14.0141 6.73534C14.7241 6.73534 15.3002 7.31117 15.3002 8.02162C15.3002 8.73228 14.7243 9.30811 14.0141 9.30811C13.3038 9.30811 12.7274 8.73228 12.7274 8.02162ZM15.7683 13.2898C14.9712 15.1332 13.1043 16.3243 11.0126 16.3243C8.8758 16.3243 6.99792 15.1272 6.22834 13.2744C6.09642 12.9573 6.24681 12.593 6.56438 12.4611C6.64238 12.4289 6.72328 12.4136 6.80293 12.4136C7.04687 12.4136 7.27836 12.5577 7.37772 12.7973C7.95376 14.1842 9.38048 15.0799 11.0126 15.0799C12.6077 15.0799 14.0261 14.1836 14.626 12.7959C14.7625 12.4804 15.1288 12.335 15.4441 12.4717C15.7594 12.6084 15.9048 12.9745 15.7683 13.2898Z"
+                                    fill="#707DB7" />
+                            </svg>
+
+                            <!-- svg      -->
+                        </button>
+                        <button class="btn" type="button">
+                            <!-- svg  -->
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11 0.289062C4.92455 0.289062 0 5.08402 0 10.9996C0 16.9152 4.92455 21.7101 11 21.7101C17.0755 21.7101 22 16.9145 22 10.9996C22 5.08472 17.0755 0.289062 11 0.289062ZM11 20.3713C5.68423 20.3713 1.375 16.1755 1.375 10.9996C1.375 5.82371 5.68423 1.62788 11 1.62788C16.3158 1.62788 20.625 5.82371 20.625 10.9996C20.625 16.1755 16.3158 20.3713 11 20.3713ZM15.125 10.3302H11.6875V6.98314C11.6875 6.61363 11.3795 6.31373 11 6.31373C10.6205 6.31373 10.3125 6.61363 10.3125 6.98314V10.3302H6.875C6.4955 10.3302 6.1875 10.6301 6.1875 10.9996C6.1875 11.3691 6.4955 11.669 6.875 11.669H10.3125V15.016C10.3125 15.3855 10.6205 15.6854 11 15.6854C11.3795 15.6854 11.6875 15.3855 11.6875 15.016V11.669H15.125C15.5045 11.669 15.8125 11.3691 15.8125 10.9996C15.8125 10.6301 15.5045 10.3302 15.125 10.3302Z"
+                                    fill="#707DB7" />
+                            </svg>
+
+                            <!-- svg  -->
+                            <input type="file">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--/### CHAT_MESSAGE_BOX  ### -->
+
+    <div id="back-top" style="display: none;">
+        <a title="Go to Top" href="#">
+            <i class="ti-angle-up"></i>
+        </a>
+    </div>
+
+    <!-- footer  -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstarp js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- sidebar menu  -->
+    <script src="js/metisMenu.js"></script>
+    <!-- waypoints js -->
+    <script src="vendors/count_up/jquery.waypoints.min.js"></script>
+    <!-- waypoints js -->
+    <script src="vendors/chartlist/Chart.min.js"></script>
+    <!-- counterup js -->
+    <script src="vendors/count_up/jquery.counterup.min.js"></script>
+
+    <!-- nice select -->
+    <script src="vendors/niceselect/js/jquery.nice-select.min.js"></script>
+    <!-- owl carousel -->
+    <script src="vendors/owl_carousel/js/owl.carousel.min.js"></script>
+
+    <!-- responsive table -->
+    <script src="vendors/datatable/js/jquery.dataTables.min.js"></script>
+    <script src="vendors/datatable/js/dataTables.responsive.min.js"></script>
+    <script src="vendors/datatable/js/dataTables.buttons.min.js"></script>
+    <script src="vendors/datatable/js/buttons.flash.min.js"></script>
+    <script src="vendors/datatable/js/jszip.min.js"></script>
+    <script src="vendors/datatable/js/pdfmake.min.js"></script>
+    <script src="vendors/datatable/js/vfs_fonts.js"></script>
+    <script src="vendors/datatable/js/buttons.html5.min.js"></script>
+    <script src="vendors/datatable/js/buttons.print.min.js"></script>
+
+    <!-- datepicker  -->
+    <script src="vendors/datepicker/datepicker.js"></script>
+    <script src="vendors/datepicker/datepicker.en.js"></script>
+    <script src="vendors/datepicker/datepicker.custom.js"></script>
+
+    <script src="js/chart.min.js"></script>
+    <script src="vendors/chartjs/roundedBar.min.js"></script>
+
+    <!-- progressbar js -->
+    <script src="vendors/progressbar/jquery.barfiller.js"></script>
+    <!-- tag input -->
+    <script src="vendors/tagsinput/tagsinput.js"></script>
+    <!-- text editor js -->
+    <script src="vendors/text_editor/summernote-bs4.js"></script>
+    <script src="vendors/am_chart/amcharts.js"></script>
+
+    <!-- scrollabe  -->
+    <script src="vendors/scroll/perfect-scrollbar.min.js"></script>
+    <script src="vendors/scroll/scrollable-custom.js"></script>
+
+    <!-- apex chrat  -->
+    <script src="vendors/apex_chart/apex-chart2.js"></script>
+    <script src="vendors/apex_chart/apex_dashboard.js"></script>
+
+    <!-- <script src="vendors/echart/echarts.min.js"></script> -->
+    <script src="vendors/chart_am/core.js"></script>
+    <script src="vendors/chart_am/charts.js"></script>
+    <script src="vendors/chart_am/animated.js"></script>
+    <script src="vendors/chart_am/kelly.js"></script>
+    <script src="vendors/chart_am/chart-custom.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+    <script>
+        // #######################
+        //  carousel_active
+        // #######################
+        $(document).ready(function () {
+            if (('.volenteers_slide').length > 0) {
+                $('.volenteers_slide').owlCarousel({
+                    loop: true,
+                    margin: 30,
+                    items: 1,
+                    autoplay: true,
+                    navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+                    nav: true,
+                    dots: false,
+                    autoplayHoverPause: true,
+                    autoplaySpeed: 800,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        767: {
+                            items: 2
+                        },
+                        992: {
+                            items: 2
+                        },
+                        1400: {
+                            items: 3
+                        }
+                    }
+                });
+            }
+            if (('.course_slide').length > 0) {
+                $('.course_slide').owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    items: 1,
+                    autoplay: true,
+                    navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+                    nav: true,
+                    dots: false,
+                    autoplayHoverPause: true,
+                    autoplaySpeed: 800,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            nav: false,
+                        },
+                        767: {
+                            items: 2,
+                            nav: false,
+                        },
+                        992: {
+                            items: 2
+                        },
+                        1400: {
+                            items: 2
+                        }
+                    }
+                });
+            }
+        });
+
+    </script>
+</body>
+
+</html>

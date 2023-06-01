@@ -1,0 +1,206 @@
+.recent_transfer_wrapper{
+    .transfer_thumb_conatnt{
+        .single_transfer_pro{
+            margin-bottom: 30px;
+            text-align: center;
+            .thumb{
+                margin-bottom: 10px;
+                width: 69px;
+                height: 69px;
+                margin-left: auto;
+                margin-right: auto;
+                img{
+                    width: 100%;
+                    border-radius: 7px;
+                }
+            }
+            h5{
+                line-height: 1;
+            }
+            p{
+                color: #ADB4C8;
+            }
+        }
+    }
+    .eth_amount_number{
+        border-top: 1px solid #EDEDF3;
+        border-bottom: 1px solid #EDEDF3;
+        padding: 20px 0;
+        margin-bottom: 30px;
+        p{
+            color: #ADB4C8;
+        }
+        h3{
+            font-size: 30px;
+            color: #302D43;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+    }
+}
+.transaction-table{
+    .sold-thumb {
+        background: #ff788e;
+        color: #fff;
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .buy-thumb {
+        background: #77c454;
+        color: #fff;
+        border-radius: 15px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .badge {
+        color: #fff;
+    }
+    .small_img{
+        margin-right: 10px;
+        width: 20px;
+    }
+}
+.badge-danger {
+    background-color: #ff788e;
+}
+.badge-success {
+    background-color: #77c454;
+}
+
+// exchange 
+.exchange_widget{
+    p,h6{
+        font-size: 12px;
+        color: #ADB4C8;
+        font-weight: 400;
+    }
+    label {
+        font-size: 14px;
+        font-weight: 400;
+        color: #ADB4C8;
+        margin-bottom: 10px;
+    }
+    .form-group{
+        margin-bottom: 15px;
+    }
+    .input-group{
+        margin-bottom: 0;
+    }
+    .form-group .form-control {
+        border-radius: 0px;
+        min-height: 45px;
+        border: 1px solid #EDEDF3;
+        padding: 0 22px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #302D43;
+        transition: all .3s ease-in-out;
+        background: #EDEDF3;
+        &::placeholder{
+            color: #302D43;
+        }
+    }
+}
+// theme_menu_dropdown 
+.theme_menu_dropdown{
+    flex-wrap: wrap;
+    li{
+        a{
+            font-size: 14px;
+            font-weight: 400;
+            color: #6F7A92;
+            padding: 5px 20px;
+        }
+    }
+}
+.anlite_table{
+    background: #5886FF;
+    .single_analite_content{
+        padding:40px 30px;
+        h4{
+            font-size: 14px;
+            font-weight: 400;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+        h3{
+            font-size: 30px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 15px;
+
+        }
+        div{
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        i{
+            margin:0 15px;
+        }
+    }
+}
+
+.monitor_list_widget{
+    display: flex;
+    flex-wrap: wrap;
+    @media #{$small_mobile}{
+        display: block;
+        margin-top: 30px;
+    }
+    .simgle_monitor_list{
+        text-align: right;
+        border-right: 1px solid #ECECEC;
+        padding-right: 20px;
+        margin-right: 20px;
+        @media #{$small_mobile} {
+            margin-bottom: 20px;
+            border: 0;
+            padding: 0;
+            margin-right: 0;
+        }
+        &:last-child{
+            border: 0;
+            margin: 0;
+            padding: 0;
+        }
+        .simgle_monitor_count{
+            span{
+                font-size: 14px;
+                color: #ADB4C8;
+                font-weight: 300;
+                margin-right: 20px;
+            }
+        }
+        h4{
+            font-size: 22px;
+            font-weight: 400;
+            color: #302D43;
+            margin-bottom: 0;
+            margin-top: 15px;
+        }
+    }
+}
+
+.card-profile__info h5 {
+    display: inline-block;
+}
+.profile_card .media {
+    border-bottom: 1px solid #f1f4f8;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.news_widget_wrap{
+    max-height: 850px;
+    overflow: auto;
+}

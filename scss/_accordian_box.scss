@@ -1,0 +1,78 @@
+.card_box{
+    border-radius: 15px;
+    .white_box_tittle{
+        background-color: #fff;
+        padding: 50px;
+        border-bottom: 1px solid #f2f4ff;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        position: relative;
+        overflow: hidden;
+    }
+    .box_body{
+        padding: 50px;
+        .card{
+            margin-bottom: 40px;
+            border: 0px;
+            -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            letter-spacing: 0.5px;
+            border-radius: 40px;
+            -webkit-box-shadow: 0px 0px 25px 0px rgba(126,55,216,0.05);
+            box-shadow: 0px 0px 25px 0px rgba(126,55,216,0.05);
+            &:last-child{
+                margin-bottom: 0;
+            }
+            .card-header{
+                background-color: #fff;
+                padding: 50px;
+                border-bottom: 1px solid #f2f4ff;
+                border-top-left-radius: 40px;
+                border-top-right-radius: 40px;
+                position: relative;
+                overflow: hidden;
+                padding: 0.75rem 1.25rem;
+                h5{
+                    margin-bottom: 0;
+                    text-transform: capitalize;
+                    font-weight: 800;
+                    line-height: 1;
+                    margin-bottom: 2px;
+                    button{
+                        font-weight: 600;
+                        color: #1b3155;
+                    }
+                }
+            }
+            .card-body{
+                padding: 50px;
+                background-color: rgba(0,0,0,0);
+            }
+        }
+    }
+}
+
+.default-according.arrow_style button::before {
+    right: 25px;
+    position: absolute;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    content: "\e648";
+    font-family: 'themify';
+    font-size: 14px;
+}
+.default-according.arrow_style button.collapsed::before {
+    right: 25px;
+    position: absolute;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    content: "\e64b";
+    font-family: 'themify';
+    font-size: 14px;
+
+}
+
+.typography small {
+    padding-left: 10px;
+    color: #2c323f;
+}

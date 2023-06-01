@@ -1,0 +1,189 @@
+.body_content {
+  display: flex;
+}
+
+.main-title {
+  h3 {
+    font-family: $font_1;
+    font-size: 16px;
+    font-weight: 700;
+    color: #324066;
+  }
+  h2 {
+    font-size: 25px;
+    font-family: $font_style_2;
+    font-weight: 700;
+  }
+  span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #757575;
+    display: block;
+    margin-top: 6px;
+  }
+}
+.box_header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  align-items: center;
+  &.box_header_block {
+    @media #{$small_mobile} {
+      flex-direction: column;
+      align-items: flex-start !important;
+    }
+    .main-title {
+      @media #{$small_mobile} {
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .title_info {
+    p {
+      font-size: 12px;
+      font-weight: 400;
+      margin-bottom: 0;
+      color: rgba(163, 160, 251, 100);
+    }
+  }
+}
+.legend_style {
+  li {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-right: 10px;
+    span {
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: #4400eb;
+      margin-right: 4px;
+    }
+    &.inactive {
+      opacity: 0.29;
+    }
+  }
+}
+.title_btn {
+  margin-bottom: 20px;
+  ul {
+    li {
+      display: inline-block;
+      a {
+        display: inline-block;
+        padding: 4px;
+        background: #fff;
+        font-size: 11px;
+        text-transform: capitalize;
+        color: #706f9a;
+        border-radius: 5px;
+        line-height: 25px;
+        padding: 0 10px;
+        transition: 0.3s;
+        &:hover {
+          background: #a66dd4;
+          color: #fff;
+        }
+        &.active {
+          background: #a66dd4;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+.radial_footer {
+  .radial_footer_inner {
+    .left_footer {
+      padding-left: 10px;
+      margin-bottom: 20px;
+      h5 {
+        font-size: 13px;
+        color: #43425d;
+        font-weight: 500;
+        margin-bottom: 0px;
+        position: relative;
+        span {
+          width: 9px;
+          height: 9px;
+          border-radius: 50%;
+          background: #a4a1fb;
+          display: inline-block;
+          position: absolute;
+          left: -15px;
+          top: 6px;
+        }
+      }
+      p {
+        font-size: 12px;
+        color: #4d4f5c;
+        opacity: 0.5;
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+    }
+  }
+  .radial_bottom {
+    border-top: 1px solid #efefef;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 4px;
+    p {
+      a {
+        font-size: 12px;
+        color: #3b86ff;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.blud_card {
+  background: #4567ee !important;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  p {
+    color: #bcd3ff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+// stoke destils
+.single_user_pil {
+  background: #ffffff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin-bottom: 15px;
+  &.admin_bg {
+    background: #ffffff;
+  }
+  &:hover {
+    background: #ffffff;
+  }
+  .user_pils_thumb {
+    img {
+      border: 1px solid #94c0d4;
+    }
+  }
+  .user_info {
+    font-size: 14px;
+    font-weight: 400;
+    color: #b5bacd;
+  }
+}
+
+.min_height_oveflow {
+  height: 470px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

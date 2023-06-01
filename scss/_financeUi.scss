@@ -1,0 +1,162 @@
+.bulet_color {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #5e5ce6;
+}
+
+.page_title_date {
+  .line_btn_1 {
+    background: #eff6f9;
+    border-radius: 3px;
+    height: 45px;
+    padding: 12px 15px 12px 20px;
+    display: flex;
+    align-items: center;
+    border: 0;
+  }
+  .dropdown-menu {
+    min-width: 200px;
+  }
+}
+
+.summery_wiz {
+  background: #f0fffd;
+  padding: 20px;
+  &.style_2 {
+    background: #f4f6ff;
+  }
+  h4 {
+    font-weight: 700;
+    color: #282b3f;
+    font-family: $font_1;
+  }
+  .summery_wiz_text {
+    h5 {
+      font-family: $font_1;
+      span {
+        color: #f35421;
+        font-family: $font_1;
+      }
+    }
+    p {
+      color: #5b636d;
+      font-family: $font_1;
+    }
+  }
+}
+
+.chart_bg {
+  background: #fff8f5;
+}
+
+.bulet_ball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #1eaae7;
+  display: inline-block;
+  flex: 20px 0 0;
+  &.style2 {
+    background: #ff7a30;
+  }
+  &.style3 {
+    background: #6418c3;
+  }
+  &.style4 {
+    background: #ffef5f;
+  }
+  &.style5 {
+    background: #2bc155;
+  }
+}
+.sales_tag_lists {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sales_tag_bulet {
+  display: flex;
+  align-items: center;
+  flex: 45% 0 0;
+  justify-content: center;
+}
+
+.status_text {
+  svg {
+    font-size: 14px;
+    font-weight: 500;
+    width: 14px;
+  }
+  span {
+  }
+  .forcast-text {
+    font-size: 13px;
+    margin-left: 4px;
+    color: #868eae;
+  }
+  .color-success {
+    color: #20c997;
+  }
+  .color-danger {
+    color: #ff4d4f;
+  }
+}
+
+.border_botoom1px {
+  border-bottom: 1px solid #f1f2f6;
+}
+.Income_ex_body {
+  display: flex;
+  .Income_ex_left {
+    flex: 25% 0 0;
+    border-right: 1px solid #f1f2f6;
+    padding: 25px 0;
+    @media #{$tab} {
+      flex: 100% 0 0;
+    }
+  }
+  .Income_ex_right {
+    flex: 75% 0 0;
+    @media #{$tab} {
+      flex: 100% 0 0;
+    }
+  }
+}
+
+.Income_ex__single .inEx-subtitle {
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #868eae;
+}
+.Income_ex__single .inEx-subtitle {
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #868eae;
+}
+.inEx__info .inEx-tail {
+  font-size: 13px;
+  color: #868eae;
+}
+
+.Income_ex__single:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.inEx__info .inEx-tail {
+  font-size: 13px;
+  color: #868eae;
+}
+.inEx__info .inEx__percentage {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 8px -2px 10px;
+  color: #20c997;
+}
+.inEx__info .inEx__percentage img,
+.inEx__info .inEx__percentage svg {
+  width: 14px;
+  margin-right: 4px;
+}

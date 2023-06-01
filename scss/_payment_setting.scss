@@ -1,0 +1,92 @@
+.payment_methord{
+    h3{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .payment_mathord_content{
+        background-color: $white;
+        padding: 30px;
+        h4{
+            font-size: 16px;
+            font-weight: 600;
+            margin: 28px 0 7px;
+        }
+        .btn_1{
+            margin-top: 28px;
+        }
+    }
+    .nav-tabs {
+        border-bottom: 0 solid transparent;
+    }
+    .payment_methord_logo{
+        display: flex;
+        align-items: center;
+        
+       .single_logo_iner{
+           width: 188px;
+           height: 90px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           border: 1px solid $border_color_1;
+           border-left: 0px solid transparent;
+           @include transform_time(.5s);
+           &:first-child{
+               border-left: 1px solid $border_color_1;
+               border-radius: 5px 0 0 5px;
+           }
+           &:last-child{
+               border-radius: 0 5px 5px 0;
+           }
+           img{
+               max-width: 100px;
+           }
+           &.active{
+            border: 1px solid $base_color !important;
+           }
+       } 
+    }
+    .nav-link .active{
+        
+    }
+}
+.form_group{
+    margin-top: 24px;
+    input{
+        width: 100%;
+        background-color: $section_bg;
+        border-radius: 5px;
+        border: 1px solid #F1F3F5;
+        padding: 12px 20px;
+    }
+    .single_form_item{
+        label{
+            width: 100%;
+            display: block;
+        }
+        input{
+            width: auto;
+            display: inline-block;
+            padding: 12px 20px;
+            max-width: 85px;
+            color: #9C9C9C;
+        }
+    }
+    #CVV{
+        max-width: 118px !important;
+    }
+    .nice_Select{
+        background-color: $section_bg;
+        margin-right: 10px;
+        color: #9C9C9C;
+    }
+}
+.checkbox{
+    label{
+        margin-bottom: 0;
+        margin-top: 25px;
+        color: #9C9C9C;
+        margin-left: 8px;
+    }
+}

@@ -1,0 +1,156 @@
+.single_prising {
+  background: #fff;
+  border-radius: 5px;
+}
+
+.single_prising .prising_header {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  padding: 55px 50px 52px 50px;
+  border-bottom: 1px solid #eae4f8;
+}
+
+@media (max-width: 575.98px) {
+  .single_prising .prising_header {
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .single_prising .prising_header {
+    padding: 30px;
+  }
+}
+
+.single_prising .prising_header .prising_header_left h4 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+.single_prising .prising_header .prising_header_left p {
+  font-size: 12px;
+  font-weight: 300;
+  color: #555555;
+  line-height: 22px;
+}
+
+.single_prising .prising_header .prising_header_right > span {
+  font-size: 12px;
+  font-weight: 300;
+  color: #555555;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 7px;
+}
+
+.single_prising .prising_header .prising_header_right h3 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0;
+  position: relative;
+}
+
+@media (max-width: 575.98px) {
+  .single_prising .prising_header .prising_header_right h3 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .single_prising .prising_header .prising_header_right h3 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .single_prising .prising_header .prising_header_right h3 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .single_prising .prising_header .prising_header_right h3 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1600px) {
+  .single_prising .prising_header .prising_header_right h3 {
+    font-size: 30px;
+  }
+}
+
+.single_prising .prising_header .dolar_singn {
+  left: -13px !important;
+  top: 7px !important;
+  position: absolute;
+  top: 4px;
+  left: -14px;
+  font-size: 16px;
+}
+
+.single_prising .prising_list {
+  padding: 30px 20px;
+}
+
+@media (max-width: 575.98px) {
+  .single_prising .prising_list {
+    padding: 30px 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .single_prising .prising_list {
+    padding-left: 30px;
+  }
+}
+
+.single_prising .prising_list ul {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 575.98px) {
+  .single_prising .prising_list ul {
+    margin-bottom: 30px;
+  }
+}
+
+.single_prising .prising_list ul li span {
+  font-size: 14px;
+  font-weight: 300;
+  color: #555555;
+  display: inline-block;
+  line-height: 40px;
+  margin-left: 15px;
+}
+
+.single_prising .prising_list ul li i {
+  background: #6c5dd3;
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  line-height: 20px;
+  display: inline-block;
+  color: #fff;
+}
+
+.single_prising .prising_list ul li.in_active i {
+  background: #ff0000;
+}
+
+.single_prising .prising_list ul li.in_active span {
+  color: #999999;
+}

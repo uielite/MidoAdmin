@@ -1,0 +1,68 @@
+/************** footer css ****************/
+.footer_part {
+  text-align: center;
+  // padding: 18px 0;
+  padding-bottom: 0px;
+  padding-top: 6px;
+  background: transparent;
+  // update
+  padding-left: 270px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  padding-bottom: 15px;
+  &.fixed_footer {
+    position: fixed;
+    z-index: 99;
+    border-radius: 0;
+    padding-bottom: 0;
+    background: transparent;
+
+    .footer_iner {
+      border-top: 2px solid #6c5dd3;
+      background: #fff !important ;
+    }
+  }
+  &.full_footer {
+    padding-left: 136px;
+  }
+  &.default_footer {
+    background: #f5f6ff;
+    .footer_iner {
+      background: transparent !important;
+    }
+  }
+  @media #{'only screen and (min-width: 320px) and (max-width: 768px)'} {
+    // position: relative;
+    padding-left: 0 !important;
+  }
+  @media #{'only screen and (min-width: 992px) and (max-width: 1200px)'} {
+    // position: relative;
+    padding-left: 20%;
+  }
+  .footer_iner {
+    background: #fff;
+    padding: 27px 20px;
+    margin: 0 15px;
+    border-radius: 0px;
+    @media #{$small_mobile} {
+      margin: 0;
+    }
+  }
+  p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #707588;
+    span {
+      margin: 0 10px;
+    }
+    a {
+      color: #222fb9;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+/************** footer css end ****************/

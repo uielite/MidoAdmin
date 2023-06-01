@@ -1,0 +1,358 @@
+.single__profile{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    .profile__name{
+        .thumb{
+            margin-right: 10px;
+            img{
+                width: 36px;
+                height: 36px;
+                border-radius: 50%;
+            }
+        }
+    }
+    .profile__review{
+        border: 1px solid #F5F7F9;
+        border-radius: 3px;
+        padding: 7px 18px;
+        display: inline-block;
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            li{
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                color: #28293A;
+                &:not(:last-child){
+                    margin-right: 30px;
+                    @media #{$tab} {
+                        margin-bottom: 10px;
+                    }
+                }
+                span{
+                    margin-right: 7px;
+                }
+            }
+        }
+    }
+    .profile__review_details{
+        .profile__review__content{
+            background: #F5F7F9;
+            border-radius: 5px;
+            padding:17px 25px;
+            p{
+                font-size: 14px;
+                font-weight: 300;
+                color:#49494B ;
+                line-height: 28px;
+            }
+        }
+    }
+}
+
+.profile__mark{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #7183FF;
+    font-size: 10px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    &.green{
+        background: #0AC911;
+    }
+    &.orange{
+        background: #FF610E
+    }
+}
+
+// freelancer__report 
+.freelancer__report{
+    .single__freelancer__report{
+        background: #F1FCFE;
+        border-radius: 5px;
+        padding: 20px 20px 0 20px;
+        .freelancer__report_header{
+            .freelancer__report_name{
+                margin-bottom: 15px;
+                display: flex;
+                    align-items: center;
+                .thumb{
+                    margin-right: 10px;
+                    img{
+                        width: 36px;
+                        height: 36px;
+                        border-radius: 50%;
+                    }
+                }
+                .FreeLancer_name{
+                    
+                    h4{
+                        font-size: 16px;
+                        font-weight: 500;
+                        margin-bottom: 0;
+                    }
+                    p{
+                        font-size: 12px;
+                        color: #9B9ABA;
+                        font-weight: 300;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            .occupation_name{
+                font-size: 12px;
+                font-weight: 500;
+                color: #2ECB77;
+                text-align: right;
+                margin-bottom: 15px;
+            }
+        }
+        .report_meta{
+            margin-bottom: 20px;
+            span{
+                font-size: 12px;
+                color: #49494B;
+                font-weight: 300;
+                display: inline-block;
+                margin-bottom: 10px;
+            }
+            p{
+                background: #fff;
+                padding: 17px 25px;
+                border-radius: 5px;
+                font-size: 14px;
+                line-height: 24px;
+                color: #49494B;
+            }
+        }
+    }
+}
+
+
+// social_media 
+.social_media_list{
+    .single_media{
+        border-bottom: 1px solid #D6D5FA;
+        padding: 17px 0;
+        &:last-child{
+            border-bottom: 0;
+        }
+        .mediaName{
+            font-size: 14px;
+            font-weight: 700;
+            color: #5E67FF;
+            img{
+                width: 40px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+            &.goole_add{
+                color: #302D43;
+            }
+            
+            &.Instagram{
+                color:#FF24E9;
+            }
+            
+            &.Youtube{}
+            color: #302D43;
+            
+        }
+        .earning_amount{
+            text-align: right;
+            h4{
+                font-size: 14px;
+                color: #302D43;
+                font-weight: 400;
+                margin-bottom: 3px;
+            }
+            p{
+                font-size: 14px;
+                color: #ADB4C8;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+// earning_table 
+.earning_table{
+    .earning_tag{
+        span{
+            font-size: 14px;
+            font-weight: 300;
+            color: #E0E0E3;
+            &.active{
+                color: #9B9ABA;
+            }
+        }
+    }
+}
+
+.gray_text{
+    color: #9B9ABA;
+}
+.engage_bg{
+    background-image: url(../img/engage_bg.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+.engagement_wrap{
+
+    h3{
+        font-size: 33px;
+        font-weight: 500;
+    }
+    p{
+        font-size: 16px;
+        color: #9B9ABA;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    ul{
+        li{
+            font-size: 16px;
+            font-weight: 400;
+            color: #28293A;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+    }
+}
+.ball_cirle{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #1875D2;
+    &.green_ball{
+        background: #18D299;
+    }
+    &.green_ball2{
+        background: #18CCD2;
+    }
+}
+
+
+.buyers_freelancer_list{
+    li{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        span{
+           font-size: 16px;
+           font-weight: 400;
+           color: #28293A;
+           &.parcent_value{
+               font-size: 14px;
+               font-weight: 400;
+               color: #9B9ABA;
+           }
+        }
+    }
+}
+
+
+// inner pages 
+// job_post__report 
+.job_post__report{
+    .single__freelancer__report{
+        .freelancer__report_header{
+            border-bottom: 1px solid #F5F7F9;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+            padding-top: 10px;
+            .freelancer__report_name{
+                margin-bottom: 0px;
+                display: flex;
+                    align-items: center;
+                .thumb{
+                    margin-right: 10px;
+                    img{
+                        width: 36px;
+                        height: 36px;
+                        border-radius: 50%;
+                    }
+                }
+                .FreeLancer_name{
+                    
+                    h4{
+                        font-size: 16px;
+                        font-weight: 500;
+                        margin-bottom: 0;
+                    }
+                    p{
+                        font-size: 12px;
+                        color: #9B9ABA;
+                        font-weight: 300;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            .occupation_name{
+                font-size: 12px;
+                font-weight: 500;
+                color: #2ECB77;
+                text-align: right;
+                margin-bottom: 15px;
+            }
+        }
+        .report_meta{
+            margin-bottom: 20px;
+            span{
+                font-size: 12px;
+                color: #49494B;
+                font-weight: 300;
+                display: inline-block;
+                margin-bottom: 10px;
+            }
+            .report_body{
+                background:#F5F7F9;
+                padding: 30px 25px;
+                border-radius: 5px;
+            }
+            p{
+                
+                font-size: 14px;
+                line-height: 24px;
+                color: #49494B;
+                
+            }
+        }
+    }
+}
+.recent_tab_lists{
+    ul{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        li{
+            margin-bottom: 20px;
+            @media #{$tab} {
+                margin-bottom: 10px;
+            }
+            &:not(:last-child){
+                margin-right: 10px;
+            }
+            a{
+                border: 1px solid #CFCFCF;
+                font-size: 16px;
+                border-radius: 5px;
+                color: #28293A;
+                padding: 12px 20px;
+                display: inline-block;
+                @media #{$tab} {
+                    padding: 7px 12px;
+                }
+                &.active,&:hover{
+                    background: #9EFF81;
+                    border-color: #9EFF81;
+                }
+            }
+        }
+    }
+}

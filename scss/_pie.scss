@@ -1,0 +1,15 @@
+.min_400{
+    min-height: 380px;
+    @media #{'(min-width: 1900px)'} {
+        min-height: 450px;
+    }
+}
+.min_430{
+    min-height: 430px;
+    @media #{'(min-width: 1900px)'} {
+        min-height: 460px;
+    }
+}
+.mb-55{
+    margin-bottom: 55px;
+}

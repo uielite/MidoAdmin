@@ -1,0 +1,107 @@
+.border_1px_top{
+    border-top: 2px solid #E1E1E1;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.theme_calender.fc-unthemed{
+    .fc-day-header {
+        border-color: transparent;
+        color: $heading_color_1;
+        font-size: 14px;
+        padding-bottom: 15px;
+        border: 0 !important;
+        
+    }
+    .fc-head-container{
+        border-bottom: 1px solid #e1e1e1 !important;
+    }
+    td,th{
+        border: 0 !important;
+    }
+    td{
+        text-align: center;
+        color: $heading_color_1;
+        a{
+            float: initial !important;
+            color: $heading_color_1;
+        }
+    }
+    .fc-dayGrid-view .fc-body .fc-row {
+        min-height: 40px;
+    }
+    .fc-widget-content {
+        margin-top: 10px;
+    }
+    .fc-toolbar h2 {
+        font-size: 18px;
+        margin: 0;
+    }
+    .fc-header-toolbar{
+        display: block !important;
+        overflow: hidden;
+        .fc-left{
+        width: 50%;
+        margin-bottom: 30px;
+        float: left;
+        flex: 50% 0 0;
+        h2{
+            font-size: 18px;
+            font-weight: 500;
+        }
+        }
+        .fc-right{
+            display: block;
+            float: inherit;
+            text-align: center;
+            margin-bottom: 15px;
+            .fc-button-group{
+                background-color: #f3f4f5;
+                border-radius: 40px;
+                .fc-button-primary{
+                    background-image: none;
+                    box-shadow: none;
+                    border: none;
+                    background: none;
+                    height: auto;
+                    font-size: 14px;
+                    color: #a5a5a5;
+                    text-transform: capitalize;
+                    padding: 8px 30px;
+                    @media #{$tab} {
+                        padding: 8px 15px;
+                    }
+                    @media #{$large_device} {
+                        padding: 8px 15px;
+                    }
+                    &.fc-button-active{
+                        background-color: #F03965;
+                        color: #ffffff;
+                        border-radius: 40px;
+                        box-shadow: 0px 4px 10px 0px rgba(240, 57, 101,.03);
+                    }
+                }
+            }
+        }
+        .fc-center{
+            margin-bottom: 30px;
+            width: 50%;
+            float: right;
+            text-align: right;
+            .fc-button-group{
+                .fc-button{
+                    background: none;
+                    box-shadow: none;
+                    border: none;
+                    padding: 0;
+                    color: #000;
+                    &:hover{
+                        color: #cdcdcd;
+                    }
+                    span{
+
+                    }
+                }
+            }
+        }
+    }
+}
